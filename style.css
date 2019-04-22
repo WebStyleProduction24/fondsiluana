@@ -5,7 +5,18 @@ Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 Author: Web Style Production 24
 Author URI: https://wsp24.ru/
 Description: Индивидуальный шаблон разработан для благотварительного фонда Силуана Афонского
-Version: 0.1.0.2
+Version: 	0.1.0.3
 License: GNU General Public License v3 or later
 License URI: LICENSE
+
+GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
+
+
+/*Главное меню*/
+.nav-link {
+	color: #4C4C4C;
+}
+.current-menu-item {
+	border-top: 1px solid #F4CE77;
+}
