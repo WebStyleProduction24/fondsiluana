@@ -10,3 +10,15 @@
 </head>
 <body <?php body_class(); ?>>
 	<div class="wrapper">
+		<div class="container">
+
+			<h1>Внимание! Сайт работает в режиме разработки</h1>
+			<h2>Если хотите внести пожертовавние то перейдите по ссыллке: <a href="/pervyj-sbor-sredstv/">Пожертвовать</a></h2>
+		</div>
+		<header>
+			<div class="container">
+				<?php wp_nav_menu( [
+					'menu_class'      => 'nav'
+				] ); ?>
+			</div>
+		</header>
