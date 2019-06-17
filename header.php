@@ -13,7 +13,10 @@
 		<div class="container">
 
 			<h1>Внимание! Сайт работает в режиме разработки</h1>
-			<h2>Если хотите внести пожертовавние то перейдите по ссыллке: <a href="/pervyj-sbor-sredstv/">Пожертвовать</a></h2>
+			<h2>Если хотите внести пожертовавние, то нажмите на кнопку: 
+
+			<a href="/pervyj-sbor-sredstv/" class="btn btn-red fs-10 beneficence" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a>
+		</h2>
 		</div>
 		<header>
 			<div class="container">

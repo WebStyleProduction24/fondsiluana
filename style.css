@@ -20,3 +20,35 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 .current-menu-item {
 	border-top: 1px solid #F4CE77;
 }
+
+/*Bootstrap кнопки*/ 
+.btn {
+	height: 28px;
+	text-transform: uppercase;
+}
+.btn-red {
+	color: #fff;
+	background: #E20613;
+	border-color: #E20613;
+}
+
+.btn-red:hover, .btn-red:focus {
+	color: #fff;
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)
+}
+
+/*Кнопки Custom*/
+
+.beneficence {
+	background-image: url(img/heart_button.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	width: 220px;
+}
+
+/*Шрифты*/
+
+.fs-10 {
+	font-size: 10px;
+}
