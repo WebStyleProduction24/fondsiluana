@@ -5,7 +5,7 @@ Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 Author: Web Style Production 24
 Author URI: https://wsp24.ru/
 Description: Индивидуальный шаблон разработан для благотварительного фонда Силуана Афонского
-Version: 	0.1.0.3
+Version: 	0.1.1
 License: GNU General Public License v3 or later
 License URI: LICENSE
 
@@ -50,5 +50,103 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 /*Шрифты*/
 
 .fs-10 {
-	font-size: 10px;
+	font-size: 10px !important;
+}
+.fs-14 {
+	font-size: 14px !important;
+}
+h2, h4 {
+	font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+}
+h2 {
+	font-size: 43px;
+	line-height: 52px;
+	color: #2B2B2B;
+}
+h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 30px;
+	line-height: 130px;
+	text-transform: uppercase;
+	color: #000;
+}
+h4 {
+	font-size: 25px;
+	line-height: 108px;
+	color: #2B2B2B;
+}
+.f-gold {
+	color: #F4CE77;
+}
+p, .content {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 19px;
+	color: #4C4C4C;
+}
+
+
+/*********************************************************************/
+.gold-line-tr::after, .gold-line-tl::after, .gold-line-bottom::after {	
+	content: '';
+	border-top: 1px solid #F4CE77;
+	border-radius: 1px;
+	width: 60px;
+	position: absolute;
+}
+.gold-line-tr::after {
+	top: 0;
+	right: 0;
+}
+.gold-line-tl::after {
+	top: 0;
+	left: 15px;
+}
+.gold-line-bottom::after {
+	bottom: 0;
+	left: 15px;
+}
+.gold-border {
+	border-color: #F4CE77 !important;
+	border-radius: 1px;	 
+}
+
+
+/*********************************************************************/
+.bcg-afonskiy-1 {
+	left: 0;
+	top: 50%;
+}
+.bcg-afonskiy-2 {
+	bottom: 0;
+}
+
+/*********************************************************************/
+.link-gray {
+	color: #4C4C4C;
+	text-decoration: none !important;
+}
+
+
+/*********************************************************************/
+.collected {
+	width: 221px;
+	border-radius: 2px;
+	padding: 2px 6px;
+	background: url(img/heart-btn.png) no-repeat #F4CE77 95% 50%;
+}
+.money {
+	font-size: 16px;
+	line-height: 23px;
+	color: #CA030F;
+}
+
+.money span {
+	font-size: 14px;
 }

@@ -1,5 +1,5 @@
 		</div>
-		<footer></footer>
+		<footer class="mt-5">Разработка сайта ведется студией <a href="https://wsp24.ru/" target="_blank">Web Style Production 24</a></footer>
 		<?php wp_footer(); ?>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
