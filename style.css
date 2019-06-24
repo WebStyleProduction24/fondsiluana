@@ -12,6 +12,8 @@ License URI: LICENSE
 GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
+/************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap&subset=cyrillic');
 
 /*Главное меню*/
 .nav-link {
@@ -56,17 +58,17 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 	font-size: 14px !important;
 }
 h2, h4 {
-	font-family: Cormorant Garamond;
 	font-style: normal;
 	font-weight: normal;
 }
 h2 {
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 43px;
 	line-height: 52px;
 	color: #2B2B2B;
 }
 h3 {
-	font-family: Roboto;
+	font-family: 'Roboto', serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 30px;
@@ -75,6 +77,7 @@ h3 {
 	color: #000;
 }
 h4 {
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 25px;
 	line-height: 108px;
 	color: #2B2B2B;
