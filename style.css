@@ -82,6 +82,14 @@ h4 {
 	line-height: 108px;
 	color: #2B2B2B;
 }
+h5 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 21px;
+	color: #2B2B2B;
+}
 .f-gold {
 	color: #F4CE77;
 }
@@ -152,4 +160,9 @@ p, .content {
 
 .money span {
 	font-size: 14px;
+}
+
+/*********************************************************************/
+#news h5 {
+	height: 50px;
 }

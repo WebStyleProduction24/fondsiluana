@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="container">
+<section id="main" class="container">
 	<div class="row">
 
 		<div class="col-6">
@@ -25,7 +25,7 @@
 	</div>
 </section>
 
-<section class="container">
+<section id="help" class="container">
 	<div class="row">
 		<div class="col-12"><h3>Им помогли</h3></div>
 		<div class="col-4">
@@ -44,5 +44,35 @@
 		</div>
 	</div>
 </section>
+
+
+<section id="news" class="container">
+	<div class="row">
+		<div class="col-12"><h3>Новости Фонда</h3></div>
+		<div class="col-3">
+			<h5 class="gold-line-bottom">Регистрация фонда</h5>
+			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
+			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+		</div>
+		<div class="col-3">
+			<h5 class="gold-line-bottom">Алена Ильина просит Вашей помощи.</h5>
+			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
+			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+		</div>
+		<div class="col-3">
+			<h5 class="gold-line-bottom">Милостью Божьей мы помогли Марии Ивановой.</h5>
+			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
+			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+		</div>
+		<div class="col-3">
+			<h5 class="gold-line-bottom">Регистрация фонда</h5>
+			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
+			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+		</div>
+	</div>
+</section>
+
+
+
 
 <?php get_footer(); ?>
