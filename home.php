@@ -3,7 +3,7 @@
 <section id="main" class="container">
 	<div class="row">
 
-		<div class="col-6">
+		<div class="col-lg-6">
 			<h2><span class="f-gold">&laquo;</span>Выйди к людям, возьми на&nbsp;себя их горе –  и тебе легче будет<span class="f-gold">&raquo;</span></h2>
 			<div class="content text-right gold-line-tr position-relative py-2 a">преп. Силуан Афонский</div>
 
@@ -15,8 +15,8 @@
 			</div>
 		</div>
 
-		<div class="col-6 text-center position-relative">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/afonskiy.png" alt="преп. Силуан Афонский">
+		<div class="col-lg-6 text-center position-relative">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/afonskiy.png" alt="преп. Силуан Афонский" class="w-100">
 			<img class="position-absolute bcg-afonskiy-1" src="<?php echo get_template_directory_uri(); ?>/img/bcg-afonskiy-1.png" alt="преп. Силуан Афонский">
 			<img class="position-absolute bcg-afonskiy-2" src="<?php echo get_template_directory_uri(); ?>/img/bcg-afonskiy-2.png" alt="преп. Силуан Афонский">
 
@@ -28,15 +28,15 @@
 <section id="help" class="container">
 	<div class="row">
 		<div class="col-12"><h3>Им помогли</h3></div>
-		<div class="col-4">
+		<div class="col-lg-4">
 			<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="София и Меркурий"></a>
 		</div>
-		<div class="col-4">
+		<div class="col-lg-4">
 			<h4 class="gold-line-tl">София и Меркурий</h4>
 			<p>Острый лимфобластный лейкоз (рак крови)</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
-		<div class="col-4">
+		<div class="col-lg-4">
 			<div class="collected mt-5">
 				<p class="mb-1">собрано</p>
 				<p class="mb-1 money">363570&nbsp;<span>₽</span></p>
@@ -49,22 +49,22 @@
 <section id="news" class="container">
 	<div class="row">
 		<div class="col-12"><h3>Новости Фонда</h3></div>
-		<div class="col-3">
+		<div class="col-lg-3">
 			<h5 class="gold-line-bottom">Регистрация фонда</h5>
 			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
-		<div class="col-3">
+		<div class="col-lg-3">
 			<h5 class="gold-line-bottom">Алена Ильина просит Вашей помощи.</h5>
 			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
-		<div class="col-3">
+		<div class="col-lg-3">
 			<h5 class="gold-line-bottom">Милостью Божьей мы помогли Марии Ивановой.</h5>
 			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
-		<div class="col-3">
+		<div class="col-lg-3">
 			<h5 class="gold-line-bottom">Регистрация фонда</h5>
 			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
