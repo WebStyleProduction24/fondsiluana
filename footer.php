@@ -9,7 +9,7 @@
 						<div><a href="#">Политика конфиденциальности</a></div>
 						<div><a href="#">Согласие на обработку перснональных данных</a></div>
 					</div>
-					<div class="col-lg-4"><a href="tel:+76501065731">+7&nbsp;650&nbsp;106&nbsp;57&nbsp;31</a><br>г.&nbsp;Воронеж, Московский&nbsp;пр-т, оф.&nbsp;307</div>
+					<div class="col-lg-4"><a href="tel:+76501065731">+7&nbsp;960&nbsp;106&nbsp;57&nbsp;31</a><br>г.&nbsp;Воронеж,&nbsp;ул. Челюскинцев, д.&nbsp;101в, кв.&nbsp;150</div>
 					<div class="col-lg-5"></div>
 				</div>
 				<div class="mt-5">Разработка сайта ведется студией <a href="https://wsp24.ru/" target="_blank">Web Style Production 24</a></div>

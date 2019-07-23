@@ -13,6 +13,18 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
 /************************************************************/
+
+
+body.postid-72 h4.attention {
+	display: none !important;
+}
+
+.leyka-persistant-campaign .leyka-campaign-content .content-area .entry-content .leyka-pf-star {
+	margin-top: 40px !important;
+}
+
+
+/************************************************************/
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap&subset=cyrillic');
 
 /*Главное меню*/

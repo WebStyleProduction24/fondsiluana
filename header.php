@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -15,11 +16,11 @@
 <body <?php body_class(); ?>>
 	<div class="wrapper">
 		<?php
-		if( is_home() ){}
+		if( is_home() && is_page(72) ){}
 		else { ?>
 			<div class="container">
 
-				<h4>Внимание! Страница работает в режиме разработки, приносим извинения за принесенные неудобства</h4>
+				<h4 class="attention">Внимание! Страница работает в режиме разработки, приносим извинения за принесенные неудобства</h4>
 
 				</h2>
 			</div>
@@ -44,7 +45,7 @@
 					<div class="col-lg-5 pb-3"><a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-main.png" alt="" type="image/png"></a></div>
 					<div class="col-6 col-lg-2 pb-3 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Нужна помощь</a></div>
 					<div class="col-6 col-lg-2 pb-3 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Стать волонтером</a></div>
-					<div class="col-lg-3 text-center m-auto"><a href="/pervyj-sbor-sredstv/" class="btn btn-red fs-10 beneficence" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
+					<div class="col-lg-3 text-center m-auto"><a href="/campaign/fond-siluana-afonskogo/" class="btn btn-red fs-10 beneficence" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
 				</div>
 			</div>
 		</header>
