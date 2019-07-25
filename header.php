@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
 	<div class="wrapper">
 		<?php
-		if( is_home() && is_page(72) ){}
+		if( is_home() || is_page(72) ){}
 		else { ?>
 			<div class="container">
 

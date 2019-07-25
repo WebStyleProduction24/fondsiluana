@@ -14,6 +14,11 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 /************************************************************/
 
+/* Leyka*/
+.leyka-persistant-campaign .leyka-campaign-content.site-content {
+	background-color: var(--leyka-color-gray-background);
+}
+/***********************************************************/
 
 body.postid-72 h4.attention {
 	display: none !important;
