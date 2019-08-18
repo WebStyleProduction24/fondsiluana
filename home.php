@@ -38,8 +38,8 @@
 		</div>
 		<div class="col-lg-4">
 			<div class="collected mt-5">
-				<p class="mb-1">собрано</p>
-				<p class="mb-1 money">363570&nbsp;<span>₽</span></p>
+				<p class="mb-1">Сбор пожертвований</p>
+				<p class="mb-1 money">окончен</p>
 			</div>
 		</div>
 	</div>
