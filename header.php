@@ -12,9 +12,6 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
-
-			
-<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?162",t.onload=function(){VK.Retargeting.Init("VK-RTRG-396678-9hOHP"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-396678-9hOHP" style="position:fixed; left:-999px;" alt=""/></noscript>
 </head>
 <body <?php body_class(); ?>>
 	<div class="wrapper">
@@ -48,7 +45,7 @@
 					<div class="col-lg-5 pb-3"><a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-main.png" alt="" type="image/png"></a></div>
 					<div class="col-6 col-lg-2 pb-3 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Нужна помощь</a></div>
 					<div class="col-6 col-lg-2 pb-3 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Стать волонтером</a></div>
-					<div class="col-lg-3 text-center m-auto"><a href="/campaign/fond-siluana-afonskogo/" class="btn btn-red fs-10 beneficence" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
+					<div class="col-lg-3 text-center m-auto"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="btn btn-red fs-10 beneficence" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
 				</div>
 			</div>
 		</header>
