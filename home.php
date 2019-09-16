@@ -72,7 +72,7 @@
                             <!-- </span> -->
                         <?php //} else {?>
                             <!-- <span><?php //_e('Support', 'leyka');?></span> -->
-                        <?php }?>
+                        <?php //}?>
                       <!--   </div>
 
                         <div class="info"> -->
