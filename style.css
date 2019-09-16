@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 /*
 Theme Name: Fond Siluana
 Theme URI: https://github.com/WebStyleProduction24/fondsiluana
@@ -185,7 +185,7 @@ p, .content {
 
 /*********************************************************************/
 #news h5 {
-	height: 50px;
+	height: 75px;
 }
 
 

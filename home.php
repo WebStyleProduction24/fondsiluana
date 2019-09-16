@@ -29,87 +29,27 @@
 	<div class="row">
 		<div class="col-12"><h3>Им нужна помощь</h3></div>
 		<div class="col-lg-4">
-			<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="София и Меркурий"></a>
+			<a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" title="Cбор средств на покупку неонатальных термокроваток"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/krovatka.png" alt="Неонатальные термокроватки"></a>
 		</div>
 		<div class="col-lg-4">
-			<h4 class="gold-line-tl">София и Меркурий</h4>
-			<p>Острый лимфобластный лейкоз (рак крови)</p>
-			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+			<h4 class="gold-line-tl" style="line-height: 35px;">Cбор средств на покупку неонатальных термокроваток</h4>
+			<p>Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»).</p>
+			<p class="text-right"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
 		<div class="col-lg-4">
 			<div class="collected mt-5">
-				<p class="mb-1">Сбор пожертвований</p>
-				<p class="mb-1 money">окончен</p>
+				<p class="mb-1">Собрано пожертвований</p>
+				<p class="mb-1 money">1000 из 307&nbsp;600 руб. </p>
 			</div>
 		</div>
 	</div>
-
-
-
-
-<div class="inpage-card_scale">
-
-                    <?php
-                    $campaign_id = 91;
-                     $collected = leyka_get_campaign_collections($campaign_id);
-						$target = leyka_get_campaign_target($campaign_id);
-
-						if($target) { // Campaign target set
-
-							$ready = isset($target['amount']) ? round(100.0*$collected['amount']/$target['amount'], 1) : 0;
-							$ready = $ready >= 100.0 ? 100.0 : $ready;?>
-
-                        <div class="scale">
-                            <div class="progress <?php echo $ready >= 100.0 ? 'fin' : '';?>" style="width:<?php echo $ready;?>%;"></div>
-                        </div>
-
-                        <div class="target">
-                        <?php if($ready > 0) {?>
-                            <?php echo leyka_format_amount($collected['amount']);?>
-                            <span class="curr-mark">
-                                <?php echo leyka_options()->opt("currency_{$collected['currency']}_label");?>
-                            </span>
-                        <?php } else {?>
-                            <span><?php _e('Support', 'leyka');?></span>
-                        <?php }?>
-                        </div>
-
-                        <div class="info">
-                            <?php echo $atts['show_preview'] ? __('Amount needed', 'leyka') : __('collected of ', 'leyka')?>
-                            <?php echo leyka_format_amount($target['amount']);?>
-                            <span class="curr-mark">
-                                <?php echo leyka_options()->opt("currency_{$target['currency']}_label");?>
-                            </span>
-                        </div>
-					<?php } else {  // Campaign doesn't have a target sum  - display empty scale ?>
-
-						<div class="scale hide-scale"></div>
-                        
-                        <div class="target">
-                            <?php echo leyka_format_amount($collected['amount']);?>
-                            <span class="curr-mark">
-                                <?php echo leyka_options()->opt("currency_{$collected['currency']}_label");?>
-                            </span>
-                            <span class="info"><?php _e('collected', 'leyka');?></span>
-                        </div>
-
-                    <?php }?>
-					</div>
-
-
-
-
-
-
-
-
 </section>
 
 <section id="helped" class="container">
 	<div class="row">
 		<div class="col-12"><h3>Им помогли</h3></div>
 		<div class="col-lg-4">
-			<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="София и Меркурий"></a>
+			<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
 		</div>
 		<div class="col-lg-4">
 			<h4 class="gold-line-tl">София и Меркурий</h4>
@@ -129,25 +69,21 @@
 <section id="news" class="container">
 	<div class="row">
 		<div class="col-12"><h3>Новости Фонда</h3></div>
+		
 		<div class="col-lg-3">
-			<h5 class="gold-line-bottom">Регистрация фонда</h5>
-			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
-			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+			<h5 class="gold-line-bottom">Сбор средств на покупку неонатальных термокроваток.</h5>
+			<p>Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»)</p>
+			<p class="text-right"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
 		<div class="col-lg-3">
-			<h5 class="gold-line-bottom">Алена Ильина просит Вашей помощи.</h5>
-			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
-			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
-		</div>
-		<div class="col-lg-3">
-			<h5 class="gold-line-bottom">Милостью Божьей мы помогли Марии Ивановой.</h5>
-			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
+			<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии.</h5>
+			<p>Спасибо огромное за пожертвования. Операция прошла успешно, София идёт на поправку.</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
 		<div class="col-lg-3">
 			<h5 class="gold-line-bottom">Регистрация фонда</h5>
 			<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
-			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+			<p class="text-right"><a href="#" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
 	</div>
 </section>
