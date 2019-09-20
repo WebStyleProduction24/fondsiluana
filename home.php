@@ -44,7 +44,7 @@
 						<div class="col-lg-4">
 							<div class="collected mt-5">
 								<p class="mb-1">Собрано пожертвований</p>
-								<p class="mb-1 money">1000 из 307&nbsp;600 руб. </p>
+								<p class="mb-1 money">121&nbsp;000 из 307&nbsp;600 руб. </p>
 							</div>
 						</div>
 					</div>
