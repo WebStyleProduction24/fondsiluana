@@ -69,40 +69,64 @@
 
 
 
-
-
-
-
-
-
-
-
 		<section id="news" class="container">
 			<div class="row">
-				<div class="col-12"><h3>Новости Фонда</h3></div>
-
-				<div class="col-lg-3">
-					<h5 class="gold-line-bottom">Сбор средств на покупку неонатальных термокроваток.</h5>
+				<div class="col-12"><h3>Новости Фонда</h3>
+				<div class="row">
+				<div class="col-3">
+					<div class="row">
+						<div class="col-8">
+						<div class="row">
+					<h5 class="gold-line-bottom mb-5">Сбор средств на покупку неонатальных термокроваток</h5>
+					</div>
+					</div>
+					<div class="col-4 new-date">
+						<span>19</span><br>ноября 
+					</div>
+					<div class="row">
+					</div>
 					<p>Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»)</p>
 					<p class="text-right"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 				</div>
+				</div>
+				
+
+	
 				<div class="col-lg-3">
-					<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии.</h5>
+					<div class="row">
+				<div class="col-8">
+						<div class="row">
+					<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии</h5>
+					</div>
+				</div>
+				<div class="col-4 new-date">
+						<span>22</span><br>марта 
+					</div>
+					</div>
 					<p>Спасибо огромное за пожертвования. Операция прошла успешно, София идёт на поправку.</p>
 					<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 				</div>
+
+
+
+
 				<div class="col-lg-3">
+					<div class="row">
+						<div class="col-8">
+						<div class="row">
 					<h5 class="gold-line-bottom">Регистрация фонда</h5>
+					</div>
+				</div>
+				<div class="col-4 new-date">
+						<span>31</span><br>июля 
+					</div>
 					<p>Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
 					<p class="text-right"><a href="#" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+				
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 </section>
-
-
-
-
 <?php get_footer(); ?>

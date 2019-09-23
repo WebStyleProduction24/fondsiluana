@@ -12,6 +12,30 @@ License URI: LICENSE
 GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto:100,300&display=swap');
+
+
+/************************************************************/
+.new-date {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-align: center;
+}
+.new-date span {
+	font-size: 50px;
+}
+
+/************************************************************/
+
+footer {
+	background-color: #F6F6F6;
+}
+
+
+
 /************************************************************/
 
 /* Leyka*/
@@ -33,7 +57,7 @@ body.postid-72 h4.attention {
 
 
 /************************************************************/
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap&subset=cyrillic');
+
 
 /*Главное меню*/
 .nav-link {
@@ -88,7 +112,7 @@ h2 {
 	color: #2B2B2B;
 }
 h3 {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 30px;
@@ -114,7 +138,7 @@ h5 {
 	color: #F4CE77;
 }
 p, .content {
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 14px;
