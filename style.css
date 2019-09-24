@@ -18,14 +18,17 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 /************************************************************/
 .new-date {
-	font-size: 20px;
+	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-style: normal;
 	text-align: center;
+	background: url(img/border.png) no-repeat 100%;
+	line-height: 1;
+	background-position: center 0; 
 }
 .new-date span {
-	font-size: 50px;
+	font-size: 45px;
 }
 
 /************************************************************/
@@ -165,7 +168,7 @@ p, .content {
 }
 .gold-line-bottom::after {
 	bottom: 0;
-	left: 15px;
+	left: 0px;
 }
 .gold-border {
 	border-color: #F4CE77 !important;
@@ -209,7 +212,7 @@ p, .content {
 
 /*********************************************************************/
 #news h5 {
-	height: 75px;
+	height: 66px;
 }
 
 
