@@ -214,6 +214,18 @@ p, .content {
 #news h5 {
 	height: 66px;
 }
+.size0_9
+{
+	font-size: 12px;
+}
+.size25
+{
+	font-size: 25px;
+}
+.size10
+{
+	font-size: 10px;
+}
 
 
 /*********************************************************************/

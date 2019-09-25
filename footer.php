@@ -4,12 +4,31 @@
 
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5">
+					<div class="col-lg-4">
 						<div><a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-main.png" alt="" type="image/png"></a></div>
-						<div><a href="#">Политика конфиденциальности</a></div>
-						<div><a href="#">Согласие на обработку перснональных данных</a></div>
+						<div><a href="#" class="button-board-border link-gray size0_9">Политика конфиденциальности</a></div>
+						<div><a href="#" class="button-board-border link-gray size0_9">Согласие на обработку перснональных данных</a></div>
 					</div>
-					<div class="col-lg-4"><a href="tel:+76501065731">+7&nbsp;960&nbsp;106&nbsp;57&nbsp;31</a><br>г.&nbsp;Воронеж,&nbsp;ул. Челюскинцев, д.&nbsp;101в, кв.&nbsp;150</div>
+					<div class="col-lg-4">
+						 Меню в разработке
+					</div>
+					<div class="col-lg-4">
+						<div>
+						<a href="tel:+76501065731"class="button-board-border link-gray size25 icon-phone">+7&nbsp;960&nbsp;106&nbsp;57&nbsp;31</a>
+						</div>
+						<div class="size0_9">
+						<span class="icon-location"></span>г.&nbsp;Воронеж,&nbsp;Московский пр-т, д.&nbsp;67, оф.&nbsp;307
+						</div>
+						<div>
+							<a href="instagram.com" target="_blank" class="icon-instagram"></a>
+						<a href="https://facebook.com"target="_blank"  class="icon-facebook"></a>
+						<a href="vk.com" target="_blank" class="icon-vk"></a>
+					</div>
+					</div>
+				</div>
+
+			</div>
+					<div class="col-lg-4"><a href="tel:+76501065731"class="button-board-border link-gray"></div>
 					<div class="col-lg-5"></div>
 				</div>
 				<div class="mt-5">Разработка сайта ведется студией <a href="https://wsp24.ru/" target="_blank">Web Style Production 24</a></div>

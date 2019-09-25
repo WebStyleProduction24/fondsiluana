@@ -1,6 +1,7 @@
 <?php
 
 function enqueue_styles() {
+	wp_enqueue_style( 'style-socials', get_stylesheet_directory_uri().'/fonts/style.css');
 	wp_enqueue_style( 'whitesquare-style', get_stylesheet_uri());
 	wp_register_style('font-style', 'https://fonts.googleapis.com/css?family=Oswald:400,300');
 	wp_enqueue_style( 'font-style');
