@@ -33,20 +33,66 @@
 				<div class="col-9">
 					<h3>Им нужна помощь</h3>
 					<div class="row">
-						<div class="col-lg-4">
-							<a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" title="Cбор средств на покупку неонатальных термокроваток"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/krovatka.png" alt="Неонатальные термокроватки"></a>
-						</div>
-						<div class="col-lg-4">
-							<h4 class="gold-line-tl" style="line-height: 35px;">Cбор средств на покупку неонатальных термокроваток</h4>
-							<p>Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»).</p>
-							<p class="text-right"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
-						</div>
-						<div class="col-lg-4">
-							<div class="collected mt-5">
-								<p class="mb-1">Собрано пожертвований</p>
-								<p class="mb-1 money">121&nbsp;000 из 307&nbsp;600 руб. </p>
-							</div>
-						</div>
+
+
+
+
+
+<?php
+
+
+$args = array(
+	'post_type'  => 'leyka_campaign', //таксономия кампаний лейки
+	'meta_query' => array(						//проверяем ведется ли сбор средств
+		array(
+			'key'     => 'is_finished',
+			'value'   => '0', 						//да, ведется
+			'compare' => '='
+		)
+	)
+);
+query_posts( $args );
+
+if( have_posts() ){ while( have_posts() ){ the_post(); ?>
+	<?php global $post; ?>
+	<div class="col-6">
+		<h4 class="gold-line-tl" style="line-height: 35px;"><?php the_title(); ?></h4>
+
+		<?php the_excerpt(); ?>
+		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
+
+	</div>
+<?php } /* конец while */ ?>
+
+	<div class="navigation">
+		<div class="next-posts"><?php next_posts_link(); ?></div>
+		<div class="prev-posts"><?php previous_posts_link(); ?></div>
+	</div>
+
+<?php
+} // конец if
+else 
+	echo "<h2>Записей нет.</h2>";
+
+wp_reset_query();
+?>
+
+<!-- leyka_campaign -->
+
+<!-- 
+								<p class="text-right"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+
+								<a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" title="Cбор средств на покупку неонатальных термокроваток"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/krovatka.png" alt="Неонатальные термокроватки"></a>
+
+
+								<div class="collected mt-5">
+									<p class="mb-1">Собрано пожертвований</p>
+									<p class="mb-1 money">121&nbsp;000 из 307&nbsp;600 руб. </p>
+								</div>
+ -->
+
+
+
 					</div>
 				</div>
 				<div class="col-3">
