@@ -35,7 +35,15 @@
 					<div class="row">
 
 
+<?php 
 
+global $wpdb;
+$meta_key = 'is_finished';
+$meta_value = '0';
+$var = $wpdb->get_var( "SELECT COUNT(*) FROM wp_postmeta WHERE meta_key = '$meta_key' AND meta_value = '$meta_value'" );
+echo  $var->publish . ' Найдено';
+
+?>
 
 
 <?php
@@ -52,6 +60,12 @@ $args = array(
 	)
 );
 query_posts( $args );
+
+$count_posts = wp_count_posts('leyka_campaign');
+$published_posts = $count_posts->publish;
+
+
+
 
 if( have_posts() ){ while( have_posts() ){ the_post(); ?>
 	<?php global $post; ?>
