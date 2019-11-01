@@ -4,5 +4,37 @@
 
 */
 
+.text-right {
+  right: 16px;
+}
 
-Тест принят
+.new-date {
+  position: absolute;
+  right: 0px;
+  height: 76px;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    text-align: center;
+  }
+  .new-date {
+    width: 90px;
+    position: absolute;
+    right: 0px;
+    height: 76px;
+  }
+
+  .col-md-12 {
+    border-top: 1px solid #4C4C4C;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+
+
+
+
