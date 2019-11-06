@@ -4,40 +4,12 @@
 
 */
 
-.text-right {
-  right: 16px;
-}
-
-.new-date {
-  position: absolute;
-  right: 0px;
-  height: 76px;
-}
-
 @media (max-width: 991px) {
-  h3,
-  h2 {
-    text-align: center;
-  }
+  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
-  .new-date {
-    position: absolute;
-    right: 0px;
-    height: 76px;
-  }
-
-  .col-md-4 {
-    border-top: 1px solid #F6F6F6;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  .col-md-4:first-child {
-    border-top: none;
-  }
 
 }
 

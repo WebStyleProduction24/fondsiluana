@@ -27,29 +27,26 @@
 <section id="help" class="container">
 
 
-	<div class="row">
-		<div class="col-12">
 			<div class="row">
-				<div class="col-9">
+				<div class="col-md-9">
 					<h3>Им нужна помощь</h3>
 					<div class="row">
 
 
-<?php 
+						<?php 
 
-global $wpdb;
-$meta_key = 'is_finished';
-$meta_value = '0';
-$var = $wpdb->get_var( "SELECT COUNT(*) FROM wp_postmeta WHERE meta_key = '$meta_key' AND meta_value = '$meta_value'" );
-echo  $var->publish . ' Найдено';
+						global $wpdb;
+						$meta_key = 'is_finished';
+						$meta_value = '0';
+						$var = $wpdb->get_var( "SELECT COUNT(*) FROM wp_postmeta WHERE meta_key = '$meta_key' AND meta_value = '$meta_value'" );
 
-?>
-
-
-<?php
+						?>
 
 
-$args = array(
+						<?php
+
+
+						$args = array(
 	'post_type'  => 'leyka_campaign', //таксономия кампаний лейки
 	'meta_query' => array(						//проверяем ведется ли сбор средств
 		array(
@@ -59,31 +56,31 @@ $args = array(
 		)
 	)
 );
-query_posts( $args );
+						query_posts( $args );
 
-$count_posts = wp_count_posts('leyka_campaign');
-$published_posts = $count_posts->publish;
-
-
+						$count_posts = wp_count_posts('leyka_campaign');
+						$published_posts = $count_posts->publish;
 
 
-if( have_posts() ){ while( have_posts() ){ the_post(); ?>
-	<?php global $post; ?>
-	<div class="col-6">
-		<h4 class="gold-line-tl" style="line-height: 35px;"><?php the_title(); ?></h4>
 
-		<?php the_excerpt(); ?>
-		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
 
-	</div>
-<?php } /* конец while */ ?>
+						if( have_posts() ){ while( have_posts() ){ the_post(); ?>
+							<?php global $post; ?>
+							<div class="col-md-6">
+								<h4 class="gold-line-tl" style="line-height: 35px;"><?php the_title(); ?></h4>
 
-	<div class="navigation">
-		<div class="next-posts"><?php next_posts_link(); ?></div>
-		<div class="prev-posts"><?php previous_posts_link(); ?></div>
-	</div>
+								<?php the_excerpt(); ?>
+								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
 
-<?php
+							</div>
+						<?php } /* конец while */ ?>
+
+						<div class="navigation">
+							<div class="next-posts"><?php next_posts_link(); ?></div>
+							<div class="prev-posts"><?php previous_posts_link(); ?></div>
+						</div>
+
+						<?php
 } // конец if
 else 
 	echo "<h2>Записей нет.</h2>";
@@ -103,81 +100,99 @@ wp_reset_query();
 									<p class="mb-1">Собрано пожертвований</p>
 									<p class="mb-1 money">121&nbsp;000 из 307&nbsp;600 руб. </p>
 								</div>
- -->
+							-->
 
 
 
+						</div>
+					</div>
+					<div class="col-md-3">
+						<h3>Им помогли</h3>
+						<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
+						<h4 class="gold-line-tl">София и Меркурий</h4>
+						<p>Острый лимфобластный лейкоз (рак крови)</p>
+						<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+						<div class="collected mt-5">
+							<p class="mb-1">Сбор пожертвований</p>
+							<p class="mb-1 money">окончен</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-3">
-					<h3>Им помогли</h3>
-					<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
-					<h4 class="gold-line-tl">София и Меркурий</h4>
-					<p>Острый лимфобластный лейкоз (рак крови)</p>
-					<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
-					<div class="collected mt-5">
-						<p class="mb-1">Сбор пожертвований</p>
-						<p class="mb-1 money">окончен</p>
+	</section>
+
+
+
+
+
+	<section id="news" class="container news">
+		<h3 class="mb-3">Новости Фонда</h3>
+		<div class="row">
+
+
+
+
+
+			<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+				<div class="row news__title-block">
+					<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+						<h5 class="gold-line-bottom">Сбор средств на покупку неонатальных термокроваток</h5>
+					</div>
+					<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+						<span>19</span>
+						<br>ноября 
 					</div>
 				</div>
+				<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+					Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»)
+				</p>
+				<p class="text-right w-100">
+					<a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">
+						Подробнее
+					</a>
+				</p>
 			</div>
-		</div>
-	</div>
-</section>
 
-
-
-
-
-<section id="news" class="container">
-	<div class="row">
-		<div class="col-12"><h3>Новости Фонда</h3>
-			<div class="row">
-				<div class="col-lg-3 position-relative">
-					<div class="row px-3">
-						<div class="col-9 mb-3 pl-0 pr-1">
-							<h5 class="gold-line-bottom">Сбор средств на покупку неонатальных термокроваток</h5>
-						</div>
-						<div class="col-3 new-date mb-3 px-0">
-							<span>19</span><br>ноября 
-						</div>
-						<p class="pb-4">Организован сбор средств на покупку неонатальных термокроваток для грудных детей, от которых отказались родители, в отделение недоношенных детей Воронежской областной детской клинической больницы № 1 (БУЗ ВО «ВОДКБ № 1»)</p>
-						<p class="text-right position-absolute fixed-bottom"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
+			<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+				<div class="row news__title-block">
+					<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+						<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии</h5>
+					</div>
+					<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+						<span>22</span>
+						<br>марта
 					</div>
 				</div>
-				
-
-
-				<div class="col-lg-3 position-relative">
-					<div class="row px-3">
-						<div class="col-9 mb-3 pl-0 pr-1">
-							<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии</h5>
-						</div>
-						<div class="col-3 new-date mb-3 px-0">
-							<span>22</span><br>марта 
-						</div>
-					</div>
-					<p class="pb-4">Спасибо огромное за пожертвования. Операция прошла успешно, София идёт на поправку.</p>
-					<p class="text-right position-absolute fixed-bottom"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
-				</div>
-
-
-
-
-				<div class="col-lg-3 position-relative">
-					<div class="row px-3">
-						<div class="col-9 mb-3 pl-0 pr-1">
-								<h5 class="gold-line-bottom">Регистрация фонда</h5>
-						</div>
-						<div class="col-3 new-date mb-3 px-0">
-							<span>31</span><br>июля 
-						</div>
-						<p class="pb-4">Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!</p>
-						<p class="text-right position-absolute fixed-bottom"><a href="#" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
-
-					</div>
-				</div>
+				<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+					Спасибо огромное за пожертвования. Операция прошла успешно, София идёт на поправку.
+				</p>
+				<p class="text-right w-100">
+					<a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">
+						Подробнее
+					</a>
+				</p>
 			</div>
+
+			<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+				<div class="row news__title-block">
+					<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+						<h5 class="gold-line-bottom">Регистрация фонда</h5>
+					</div>
+					<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+						<span>31</span>
+						<br>июля
+					</div>
+				</div>
+				<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+					Дорогие друзья, наконец-то, спустя почти полтора года непрерывных усилий, с третьей попытки нам удалось с Божьей помощью зарегистрировать долгожданный благотворительный фонд!
+				</p>
+				<p class="text-right w-100">
+					<a href="#" class="button border-bottom gold-border pb-1 link-gray">
+						Подробнее
+					</a>
+				</p>
+			</div>
+
+
 		</div>
 	</div>
 </section>
