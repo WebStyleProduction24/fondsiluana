@@ -17,6 +17,8 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 
 /************************************************************/
+/*Блок новостей*/
+/************************************************************/
 .new-date {
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
@@ -27,14 +29,24 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 	line-height: 1;
 	background-position: center 0;	
 	background-size: contain;	
-  right: 0px;
-  height: 76px;
-  position: absolute;
+	right: 10px;
+	height: 76px;
 }
 .new-date span {
 	font-size: 45px;
 }
-
+.news__title-block {
+	padding-right: 0;
+	padding-left: 1rem;
+	display: table;
+	min-height: 100px;
+}
+.news__content {
+	min-height: 175px;
+}
+.news-sidebar .news__content {
+	min-height: inherit;
+}
 /************************************************************/
 
 footer {
@@ -222,7 +234,7 @@ footer .gold-line-tl::after {
 
 /*********************************************************************/
 #news h5 {
-	height: 66px;
+	/*height: 66px;*/
 }
 .size0_9
 {
@@ -279,6 +291,9 @@ span.size25
 /*********************************************************************/
 
 @media (max-width: 991px) {
+	.news-sidebar .news__content {
+		min-height: 175px;
+	}
 	h3, h2 {
 		text-align: center;
 	}
@@ -300,6 +315,9 @@ span.size25
 /*********************************************************************/
 
 @media (max-width: 767px) {
+	.news__content {
+		min-height: inherit !important;
+	}
 	.new-date {
 		margin-top: .25rem;
 	}
