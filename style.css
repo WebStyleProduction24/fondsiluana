@@ -18,7 +18,6 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 /************************************************************/
 .new-date {
-	min-width: 100px;
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -26,7 +25,11 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 	text-align: center;
 	background: url(img/border.png) no-repeat 100%;
 	line-height: 1;
-	background-position: center 0; 
+	background-position: center 0;	
+	background-size: contain;	
+  right: 0px;
+  height: 76px;
+  position: absolute;
 }
 .new-date span {
 	font-size: 45px;
@@ -127,8 +130,8 @@ h3 {
 h4 {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 25px;
-	line-height: 108px;
 	color: #2B2B2B;
+	text-align: center;
 }
 h5 {
 	font-family: 'Cormorant Garamond', serif;
@@ -275,7 +278,31 @@ span.size25
 /*********************************************************************/
 /*********************************************************************/
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+	h3, h2 {
+		text-align: center;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	.new-date {
+		margin-top: 1rem;
+	}
+}
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+@media (max-width: 767px) {
+	.new-date {
+		margin-top: .25rem;
+	}
 	.current-menu-item {
 		border: none;
 	}
@@ -284,6 +311,6 @@ span.size25
 	}
 	h2 {
 		font-size: 1.75rem;
-    line-height: 30px;
+		line-height: 30px;
 	}
 }
