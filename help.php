@@ -10,6 +10,7 @@ Template Name: Шаблон страницы Просит помощи
 
 <?php get_header(); ?>
 
+
 <section class="offer" id="offer">
 		<div class="container">
 			<div class="row">
