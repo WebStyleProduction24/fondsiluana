@@ -121,34 +121,34 @@ Template Name: Шаблон страницы "Контакты"
       <div class="col-lg-3 offset-lg-1 col-md-6 requisites">
         <h4 class="contacts-h4 w-100 gold-line-tl">Реквизиты фонда</h4>
         <p class="requisites-text">"Фонд св. преп. Силуана Афонского"</p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">Номер счёта:</span>
-          40703810513000001134
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">Банк получателя:</span>
-          ЦЕНТРАЛЬНО-ЧЕРНОЗЕМНЫЙ БАНК ПАО СБЕРБАНК
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">БИК:</span>
-          042007681
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">Кор. счёт:</span>
-          30101810600000000681
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">ИНН:</span>
-          3664238750
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">ОГРН:</span>
-          1183600000924
-        </p>
-        <p class="requisites-text">
-          <span class="requisites-text-header">КПП:</span>
-          366401001
-        </p>
+        <div>
+          Номер счёта:
+          <p>40703810513000001134</p>
+        </div>
+        <div>
+          Банк получателя:
+          <p>ЦЕНТРАЛЬНО-ЧЕРНОЗЕМНЫЙ БАНК ПАО СБЕРБАНК</p>
+        </div>
+        <div>
+          БИК:
+          <p>042007681</p>
+        </div>
+        <div>
+          Кор. счёт:
+          <p>30101810600000000681</p>
+        </div>
+        <div>
+          ИНН:
+          <p>3664238750</p>
+        </div>
+        <div>
+          ОГРН:
+          <p>1183600000924</p>
+        </div>
+        <div>
+          КПП:
+          <p>366401001</p>
+        </div>
         <div class="text-center">
           <a href="#" class="btn fs-10 white-beneficence d-block m-auto" role="button" aria-disabled="true">
             Скачать реквизиты
