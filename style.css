@@ -8,7 +8,6 @@ Description: Индивидуальный шаблон разработан дл
 Version: 	0.1.1
 License: GNU General Public License v3 or later
 License URI: LICENSE
-
 GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
@@ -17,7 +16,7 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 
 /************************************************************/
-/*Блок новостей*/
+/*Блок новостей test*/
 /************************************************************/
 .new-date {
 	font-size: 14px;
@@ -93,8 +92,11 @@ body.postid-72 h4.attention {
 }
 .btn-red {
 	color: #fff;
-	background: #E20613;
-	border-color: #E20613;
+/*	background: #E20613;
+	border-color: #E20613;*/
+	/*так цвета более точно совпадают с png*/
+	background: #FF010B;
+	border-color: #FF010B;
 }
 
 .btn-red:hover, .btn-red:focus {
