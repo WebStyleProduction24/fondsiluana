@@ -3,3 +3,830 @@
 Стили, прописанные Дмитрием Бадиковым
 
 */
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Roboto-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Roboto-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Roboto-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Roboto-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('../fonts/RobotoSlab-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/RobotoSlab-Light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/RobotoSlab-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/RobotoSlab-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/RobotoSlab-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url('../fonts/RobotoSlab-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/RobotoSlab-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/RobotoSlab-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/RobotoSlab-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/RobotoSlab-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Thin';
+    src: url('../fonts/RobotoSlab-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RobotoSlab-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/RobotoSlab-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/RobotoSlab-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/RobotoSlab-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/RobotoSlab-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+/* ------ Specification ------ */
+
+body {
+  font-family: 'RobotoSlab-Light', sans-serif;
+  padding: 0;
+  color: #4C4C4C;
+  font-weight: 300;
+  margin: 0;
+  font-size: 12px;
+  
+}
+
+div, p, form, input, a, span, button {
+  box-sizing: border-box;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a, button, input {
+  transition: all 0.5s ease;
+}
+
+/*---header---*/
+.header__menu{
+    margin-top: 30px;
+}
+
+.header__menu-nav{
+    margin-left: 362px;    
+}
+
+.header__menu-item{
+    margin-right: 10px;
+}
+
+.header__menu-item a {
+    color: #4C4C4C;
+    
+    line-height: 4;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+.header__menu-item a:before {
+    background-color: #F4CE77;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.header__menu-item a:hover:before,
+.header__menu-item a:focus:before {
+    width: 100%;
+}
+
+.header__logo{
+    margin-top: 33px;
+}
+
+.header__text-help{
+  font-size: 12px; 
+  margin-top: 33px; 
+}
+
+.header__text-vol{
+  font-size: 12px; 
+  margin-top: 33px; 
+}
+
+.header__text-help a { 
+ color: #4C4C4C;     
+    line-height: 3;
+    text-decoration:none;
+    cursor: pointer;
+    text-transform: uppercase;   
+}
+
+.header__text-vol a { 
+ color: #4C4C4C;    
+    line-height: 3;
+    text-decoration:none;
+    cursor: pointer;  
+    text-transform: uppercase;  
+
+}
+
+.header__text-help a:before{
+    background-color: #EFEFEF;
+    display: block;
+    content: "";
+    height: 2px;
+ 
+    width: 150px;
+    position: absolute;
+   right: 45px;
+}
+
+.header__text-vol a:before{
+    background-color: #EFEFEF;
+    display: block;
+    content: "";
+    height: 2px;
+  
+    width: 160px;
+    position: absolute;
+   right: 30px;
+}
+
+.header__red{
+    margin-top: 33px;
+}
+
+
+/*---open menu---*/
+.wrapper-menu {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);  
+}
+
+.line-menu {
+  background-color: #000;
+  border-radius: 5px;
+  width: 100%;
+  height: 6px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+
+/*---offer---*/
+
+.offer__title{
+    margin-top: 60px;
+}
+
+.offer__progress-bar{
+    margin-top: 89px;
+    margin-left: 132px;
+}
+
+
+.offer__title-text{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    color: #2B2B2B;    
+}
+
+.offer__bar-text{
+    margin-right: 135px;
+
+}
+
+.offer__bar-progress{
+    border: 1px solid #DADADA;
+    width: 290px;
+    height: 11px;   
+}
+
+.offer__bar-money-item-yelow{
+    margin-right: 165px;
+     color: #F4CE77;
+     font-size: 15px;
+}
+
+.offer__bar-money-item-red{
+    color: #E20613;
+    font-size: 15px;
+}
+
+.offer__bar-progress-yelow{    
+    border: none;
+    border-top: 5px solid #F4CE77;
+    width: 109px;
+    margin-top: 2px;
+    margin-left: 3px;
+
+}
+
+.offer__bar-progress-red{
+    border: none;
+    border-top: 5px solid #E20613;
+    width: 174px;
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.offer__red-line {
+    border: none;
+    border-top: 28px solid #E20613;
+    width: 220px;
+    position: absolute;
+    border-radius: 4px;
+    left: 9px;
+   } 
+
+.heart__big{
+    margin-left: 78px;
+}
+
+.offer__date{
+    margin-top: 16px;
+    position: absolute;
+    left: -124px;
+    width: 88px;
+    line-height: 3;
+
+}
+.offer__red-help{
+   margin-left: 132px; 
+   margin-top: 24px;
+}
+
+.offer__date p:before {
+    background-color: #F4CE77;
+    display: block;
+    content: "";
+    height: 2px;
+    line-height: 4;
+    
+}
+
+.helpp{
+    width: 100%;
+}
+
+.offer__help{
+    margin-top: 89px;
+}
+
+.offer__help-item{
+    margin-top: 50px;
+}
+
+.offer__help-seek{
+    margin-top: 38px;
+}
+
+.offer__help-item-text{
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 17px;
+ color: #4C4C4C;  
+
+}
+
+.offer__help-seek-text{
+    font-size: 12px;
+    color: #4C4C4C;
+    font-weight: 300;
+}
+
+.up_text{
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 24px;
+ color: #4C4C4C;    
+}
+
+.offer__help-seek-img{
+   
+}
+
+.help__img{
+    width: 100%;
+}
+
+.offer__help-seek-line{
+    border: none;
+    border-top: 2px solid #F4CE77;
+    width: 72px;    
+    border-radius: 1px;
+    margin-left: 366px;
+    margin-top: -11px;
+}
+
+.offer__help-seek-img-text{
+    margin-left: 345px;
+}
+
+/*---footer---*/
+
+.footer{
+    background: #F6F6F6;  
+    margin-top: 56px;
+    margin-bottom: 174px;
+}
+
+.footer__logo{
+    margin-top: 40px;
+}
+
+.footer__menu{
+    margin-left: 43px;
+    margin-top: 40px;
+}
+
+
+.footer__menu-item{
+   
+    margin:0 auto;
+    
+}
+
+.footer__menu-item a {
+    color: #4C4C4C;
+    line-height: 2;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+.footer__menu-item a:before {
+    background-color: #F4CE77;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.footer__menu-item a:hover:before,
+.footer__menu-item a:focus:before {
+    width: 100%;
+}
+
+.wl{
+    width: 29px;
+    margin-right: 24px;
+    margin-left: 26px;
+}
+
+.footer__place{
+    margin-top: 40px;
+    
+}
+
+.footer__phone{
+    margin-bottom: 10px;
+}
+
+.footer__phone a{
+    text-decoration: none;
+    color: #4C4C4C;  
+}
+
+.phone{
+     font-size: 24px;
+}
+
+.telephone{
+    margin-right: 11px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.mapss{
+    margin-right: 11px;
+    height: 15px;
+    margin-top: 1px;
+}
+
+.footer__text{
+    margin-top: 45px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1024px) { 
+    .header__menu-nav {
+        margin-left: 239px;
+    }
+
+    .offer__title-text {       
+        font-size: 40px;       
+    }
+
+    .offer__help {
+        margin-top: 129px;
+    }
+
+    .offer__red-help {
+        margin-left: 75px;       
+    }
+
+    .offer__red-line {       
+        width: 163px;       
+    }
+
+    .offer__progress-bar {   
+        margin-left: 80px;
+    }
+
+    .offer__help-item-text {    
+        text-align: justify;
+    }
+
+    .offer__help-seek-text {    
+        text-align: justify;
+    }
+
+    .offer__help-seek-img-text {
+        margin-left: 260px;
+    }
+
+    .offer__help-seek-line {   
+        margin-left: 294px;       
+    }
+
+    .wl {        
+        margin-right: 12px;
+        margin-left: 17px;
+    }
+
+    .header__text-vol a:before {   
+        right: 3px;
+    }
+
+    .header__text-help a:before {    
+        right: 18px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) { 
+
+    .header__menu-nav {
+        margin-left: 107px;
+    }
+    .wrapper-menu{
+        display: none;
+    }
+
+    .header__logo {    
+    text-align: center;
+    }
+
+    .header__text-help {    
+    text-align: center;
+    }
+
+    .header__text-help a:before {    
+    right: 110px;
+    }
+
+    .header__text-vol {        
+        text-align: center;
+    }
+
+    .header__text-vol a:before {
+        right: 97px;
+    }
+
+    .header__red {      
+        text-align: center;
+    }
+
+    .offer__title-text {
+       font-size: 36px;        
+    }
+
+    .offer__help {
+        margin-top: 21px;
+    }
+
+    .offer__progress-bar {
+        margin-top: 1px;
+        margin-left: 188px;
+    }
+
+    .offer__red-line {      
+        left: 129px;
+    }
+
+    .offer__red-help {
+        margin-left: 250px;       
+    }
+
+    .offer__date {
+        margin-top: 17px;
+        position: absolute;
+        left: 27px;
+        width: 88px;
+        line-height: 3;      
+    }
+
+    .help__img {
+        width: 70%;
+    }
+
+    .footer__logo {   
+        text-align: center;
+    }
+
+    .footer__text {
+        margin-top: 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .wl {
+       
+        margin-right: 82px;
+        margin-left: 83px;
+    }
+
+    .footer__place {
+    margin-top: 15px;    
+    display: table;
+    margin: auto;
+}
+
+.offer__help-seek-img-text {
+    margin-left: 384px;
+}
+
+.offer__help-seek-line {
+    margin-left: 510px;
+}
+
+}
+
+@media screen and (max-width: 360px) { 
+
+    .header__menu-nav {
+    margin-left: 0px;
+}
+      .wrapper-menu{
+        display: flex;
+    }
+
+    .header__menu-nav{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .header__menu-item a {   
+        line-height: 3;
+        
+    }
+
+    .wl {
+            margin-right: 22px;
+    margin-left: 24px;
+    }
+
+    .wrapper-menu { 
+    margin-left: 248px;
+    margin-top: 25px;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .header__menu {   
+     display: none;   
+    text-align: center;
+    }
+
+    .header__text-help {  
+    text-align: center;
+    }
+
+    .header__text-vol {    
+    text-align: center;
+    }
+
+    .header__text-help a:before {  
+    right: 100px;
+    }
+
+    .header__text-vol a:before {    
+    right: 93px;
+    }
+
+    .header__red {    
+    text-align: center;
+    }
+
+    .offer__title-text {
+     font-size: 18px;    
+    }
+
+    .offer__date {
+    margin-top: 17px;
+    position: absolute;
+    left: 7px;
+    width: 77px;
+    line-height: 3;
+}
+
+    .helpp {    
+    width: 100%;
+    }
+
+    .offer__help {
+    margin-top: 2px;
+    }
+
+    .offer__date-text{
+        font-size: 9px;
+    }
+
+    .offer__progress-bar {
+    margin-top: 20px;
+    margin-left: 2px;    
+    }
+    .offer__red-line {
+        width: 0px;
+        left: 0px;
+    }
+
+    .heart__big {
+    margin-left: -180px;    
+    }
+
+    .help__img {
+    width: 100%;
+    }
+
+    .offer__help-seek-img-text {
+    margin-left: 229px;
+    }
+
+    .offer__help-seek-line {  
+    margin-left: 255px;
+    margin-top: -11px;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) { 
+    .header__menu-nav{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .header__menu-item a {   
+        line-height: 3;
+        
+    }
+
+    .wl {
+        margin-right: 10px;
+        margin-left: 16px;
+    }
+
+    .wrapper-menu { 
+    margin-left: 248px;
+    margin-top: 25px;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .header__menu {   
+     display: none;   
+    text-align: center;
+    }
+
+    .header__text-help {  
+    text-align: center;
+    }
+
+    .header__text-vol {    
+    text-align: center;
+    }
+
+    .header__text-help a:before {  
+    right: 85px;
+    }
+
+    .header__text-vol a:before {    
+    right: 77px;
+    }
+
+    .header__red {    
+    text-align: center;
+    }
+
+    .offer__title-text {
+     font-size: 18px;    
+    }
+
+    .offer__date {
+    margin-top: 17px;
+    position: absolute;
+    left: 7px;
+    width: 77px;
+    line-height: 3;
+}
+
+    .helpp {    
+    width: 100%;
+    }
+
+    .offer__help {
+    margin-top: 2px;
+    }
+
+    .offer__date-text{
+        font-size: 9px;
+    }
+
+    .offer__progress-bar {
+    margin-top: 20px;
+    margin-left: 2px;    
+    }
+    .offer__red-line {
+        width: 0px;
+        left: 0px;
+    }
+
+    .heart__big {
+    margin-left: -180px;    
+    }
+
+    .help__img {
+    width: 100%;
+    }
+
+    .offer__help-seek-img-text {
+    margin-left: 181px;
+    }
+
+    .offer__help-seek-line {  
+    margin-left: 211px;
+    margin-top: -11px;
+    }
+}
+
+
