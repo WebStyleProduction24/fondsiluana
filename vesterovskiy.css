@@ -56,10 +56,6 @@
   border-radius: 0;
 }
 
-.label-font {
-  font-size: 12px;
-}
-
 
 
 /***** Блок реквизиты *****/
@@ -88,30 +84,7 @@
   overflow: hidden;
 }
 
-
-@media (max-width: 991px) {
-  .contacts-h2 {
-    text-align: center;
-  }
-
-  .bottom-map {
-    display: none;
-  }
-}
-
-
 @media (max-width: 767px) {
-  .contacts-h3 {
-    text-align: center;
-  }
-
-  .map-vertical {
-    display: none;
-  }
-
-  .bottom-map {
-    display: block;
-  }
 
   .requisites {
     margin-left: 10px;
