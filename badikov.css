@@ -6,148 +6,9 @@
 таким образом ты фиксируешь свои изменения у себя на компе
 продолжаем типа дальше делать меняем и еще что-то и делатем коммит
 */
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../fonts/Roboto-Bold.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Roboto-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Roboto-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/Roboto-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Roboto-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 
-@font-face {
-    font-family: 'RobotoSlab-Light';
-    src: url('../fonts/RobotoSlab-Light.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/RobotoSlab-Light.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/RobotoSlab-Light.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/RobotoSlab-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/RobotoSlab-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'RobotoSlab-Regular';
-    src: url('../fonts/RobotoSlab-Regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/RobotoSlab-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/RobotoSlab-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/RobotoSlab-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/RobotoSlab-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'RobotoSlab-Thin';
-    src: url('../fonts/RobotoSlab-Thin.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/RobotoSlab-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/RobotoSlab-Thin.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/RobotoSlab-Thin.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/RobotoSlab-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/RobotoSlab-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
-
-/*---header---*/
-.header__menu{
-    margin-top: 30px;
-}
-
-.header__menu-nav{
-    margin-left: 362px;    
-}
-
-.header__menu-item{
-    margin-right: 10px;
-}
-
-.header__menu-item a {
-    color: #4C4C4C;
-    
-    line-height: 4;
-    text-decoration:none;
-    cursor: pointer;
-    position:relative;
-}
-
-.header__menu-item a:before {
-    background-color: #F4CE77;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    left:50%;
-    position:absolute;
-    -webkit-transition: width .3s ease-in-out;
-    -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    transform:translateX(-50%);
-}
-
-.header__menu-item a:hover:before,
-.header__menu-item a:focus:before {
-    width: 100%;
-}
-
-.header__logo{
-    margin-top: 33px;
-}
-
-.header__text-help{
-  font-size: 12px; 
-  margin-top: 33px; 
-}
-
-.header__text-vol{
-  font-size: 12px; 
-  margin-top: 33px; 
-}
-
-.header__text-help a { 
- color: #4C4C4C;     
-    line-height: 3;
-    text-decoration:none;
-    cursor: pointer;
-    text-transform: uppercase;   
-}
-
-.header__text-vol a { 
- color: #4C4C4C;    
-    line-height: 3;
-    text-decoration:none;
-    cursor: pointer;  
-    text-transform: uppercase;  
-
-}
-
-.header__text-help a:before{
-    background-color: #EFEFEF;
-    display: block;
-    content: "";
-    height: 2px;
- 
-    width: 150px;
-    position: absolute;
-   right: 45px;
-}
-
-.header__text-vol a:before{
-    background-color: #EFEFEF;
-    display: block;
-    content: "";
-    height: 2px;
-  
-    width: 160px;
-    position: absolute;
-   right: 30px;
-}
-
-.header__red{
-    margin-top: 33px;
-}
-
 
 /*---open menu---*/
 .wrapper-menu {
@@ -197,6 +58,10 @@
 
 /*---offer---*/
 
+.offer__help-item-text {    
+        text-align: justify;
+    }
+    
 .offer__title{
     margin-top: 60px;
 }
@@ -270,7 +135,7 @@
     margin-top: 16px;
     position: absolute;
     left: -124px;
-    width: 88px;
+    width: 107px;
     line-height: 3;
 
 }
@@ -307,20 +172,16 @@
 .offer__help-item-text{
  font-family: 'Cormorant Garamond', serif;
  font-size: 17px;
- color: #4C4C4C;  
+
 
 }
 
-.offer__help-seek-text{
-    font-size: 12px;
-    color: #4C4C4C;
-    font-weight: 300;
-}
+
 
 .up_text{
  font-family: 'Cormorant Garamond', serif;
  font-size: 24px;
- color: #4C4C4C;    
+ 
 }
 
 .offer__help-seek-img{

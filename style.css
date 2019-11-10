@@ -12,11 +12,96 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto:100,300&display=swap');
+/************************************************************/
+/*Forms*/
+/************************************************************/
+.form-control {
+	padding-left: 0;
+}
+input[type="checkbox"] {
+	opacity: 0;
+}
+input[type="checkbox"] + label {
+	cursor: pointer;
+	padding-left: 25px;
+}
+input[type="checkbox"] + label:before {
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #F4CE77;
+	font-size: 17px;
+	border: 1px solid #F4CE77;
+	vertical-align: middle;
 
+border: 1px solid #F4CE77;
+
+	content: '';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+}
+input[type="checkbox"]:checked + label:before {
+	font-family: 'check' !important;
+	content: "\e901";
+}
+input[type="checkbox"]:focus + label:before {
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(244, 206, 119,.7);
+}
 
 /************************************************************/
-/*Блок новостей test*/
+/*heart buttons*/
+/************************************************************/
+
+.hrt-btn {
+	height: 28px;
+	background-color: #E20613;
+	text-transform: uppercase;	
+}
+.wht-hrt-btn {
+	width: 95%;
+	border: 1px solid rgba(202,3,15,0.5);
+	color: #CA030F;
+	text-transform: uppercase;
+}
+.hrt-btn:hover, .hrt-btn:focus, .wht-hrt-btn:hover, .wht-hrt-btn:focus {
+	box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+	-webkit-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+	-moz-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+}	
+.wht-hrt-btn:hover {
+	color: #CA030F !important;
+}
+.hrt-btn::after, .wht-hrt-btn::after {
+	position: absolute;
+	background-size: contain !important;
+	content: '';
+}
+.hrt-btn::after {
+	height: 35px;
+	width: 35px;
+	background: url(img/heart.png);
+	right: 0;
+	top: -5px;
+}
+.wht-hrt-btn::after {
+	background: url(img/heart.png);
+	height: 40px;
+	width: 40px;
+	right: -18px;
+	top: -7px;
+}
+
+/************************************************************/
+/*Яндекс карта*/
+/************************************************************/
+
+#map {
+	min-height: 300px;
+}
+/************************************************************/
+/*Блок новостей*/
 /************************************************************/
 .new-date {
 	font-size: 14px;
@@ -81,46 +166,31 @@ body.postid-72 h4.attention {
 .nav-link {
 	color: #4C4C4C;
 }
+.nav-link:hover {
+	border-top: 1px solid #F4CE77;
+	margin-top: -1px;
+}
 .current-menu-item {
 	border-top: 1px solid #F4CE77;
-}
-
-/*Bootstrap кнопки*/ 
-.btn {
-	height: 28px;
-	text-transform: uppercase;
-}
-.btn-red {
-	color: #fff;
-/*	background: #E20613;
-	border-color: #E20613;*/
-	/*так цвета более точно совпадают с png*/
-	background: #FF010B;
-	border-color: #FF010B;
-}
-
-.btn-red:hover, .btn-red:focus {
-	color: #fff;
-	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)
-}
-
-/*Кнопки Custom*/
-
-.beneficence {
-	background-image: url(img/heart_button.jpg);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: contain;
-	width: 220px;
+	margin-top: -1px;
 }
 
 /*Шрифты*/
 
+.container {	
+	font-family: 'Roboto', sans-serif;
+}
 .fs-10 {
 	font-size: 10px !important;
 }
+.fs-12 {
+	font-size: 12px !important;
+}
 .fs-14 {
 	font-size: 14px !important;
+}
+.fs-18 {
+	font-size: 18px !important;
 }
 h2, h4 {
 	font-style: normal;
@@ -159,7 +229,6 @@ h5 {
 	color: #F4CE77;
 }
 p, .content {
-	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 14px;
@@ -169,10 +238,9 @@ p, .content {
 
 
 /*********************************************************************/
-.gold-line-tr::after, .gold-line-tl::after, .gold-line-bottom::after {	
+.gold-line-bottom::after {	
 	content: '';
 	border-top: 1px solid #F4CE77;
-	border-radius: 1px;
 	width: 60px;
 	position: absolute;
 }
@@ -214,6 +282,9 @@ footer .gold-line-tl::after {
 .link-gray {
 	color: #4C4C4C;
 	text-decoration: none !important;
+}
+.link-gray:hover {
+	color: #000;
 }
 
 
