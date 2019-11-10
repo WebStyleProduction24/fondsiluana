@@ -61,15 +61,6 @@
   text-align: left;
 }
 
-.size20 {
-  font-size: 16px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-
 .contacts-link {
   font-size: 18px;
 /*  font-family: 'Cormorant Garamond', serif;*/
@@ -142,16 +133,18 @@
 /***** Блок реквизиты *****/
 .requisites {
   position: relative;
-  padding-top: 40px;
   padding-bottom: 10px;
   border: 1px solid #979797;
   border-radius: 3px;
   align-self: flex-start;
 }
 
-.requisites .gold-line-tl::after{
-  top: 30px;
-  left: 15px;
+.gold-line-top::before{
+  top: 0;
+  content: '';
+  border-top: 1px solid #F4CE77;
+  width: 60px;
+  position: absolute;
 }
 
 .requisites-text {
@@ -167,16 +160,6 @@
   white-space: normal;
 }*/
 
-/*кнопка скачать реквизиты*/
-.white-beneficence {
-  width: 220px;
-  border: 1px solid #FF010B;
-  color: #FF010B;
-  background-image: url(img/heart-btn.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
 
 
 /*Карта*/
@@ -185,11 +168,6 @@
   background-color: #F4EEE1;
   border-radius: 5px;
   overflow: hidden;
-}
-
-.bottom-map {
-  max-height: 300px;
-  background-color: #F4EEE1;
 }
 
 
