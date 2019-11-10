@@ -16,74 +16,54 @@ Template Name: Шаблон страницы "Контакты"
   <div class="row">
 
     <!-- Главная колонка -->
-    <div class="col-lg-8 col-md-12">
-      <div class="container">
-        <div class="row">
-          <h2 class="contacts-h2 w-100 mb-4">Наши Контакты</h2>
-          <div class="col-md-4 mb-5">
-            <div class="contacts-block">
-              <div class="contacts-block-top">
-                <p class="f-12 pb-2 mb-2 gold-line-bottom">адрес</p>
-              </div>
-              <a class="link-gray contacts-link" href="#maps" title="перейти к карте">г. Воронеж</a>
-              <p class="size0_9">ул. Коммисаржевской 10, офис 123</p>
-            </div>
+    <div class="col-lg-9 col-md-12">
+      <h3 class="mb-4">Наши Контакты</h3>
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="position-relative">
+            <p class="fs-12 pb-2 mb-2 gold-line-bottom">адрес</p>
           </div>
-          <div class="col-md-4 mb-5">
-            <div class="contacts-block">
-              <div class="contacts-block-top">
-                <p class="f-12 pb-2 mb-2 gold-line-bottom">телефон</p>
-              </div>
-              <a class="link-gray contacts-link" href="tel:+7(650)1065731">
-                +7 650 106 57 31
-              </a>
-            </div>
+          <div class="fs-18">
+            г. Воронеж
+            <p class="fs-12"><a href="https://yandex.ru/maps/-/CGTNQZiv" class="link-gray" target="blank">ул. Коммисаржевской 10, офис 123</a></p>
           </div>
-          <div class="col-md-4 mb-5">
-            <div class="contacts-block">
-              <div class="contacts-block-top">
-                <p class="f-12 pb-2 mb-2 gold-line-bottom">e-mail</p>
-              </div>
-              <a class="link-gray contacts-link" href="mailto:76501065731@yandex.ru">
-                76501065731@yandex.ru
-              </a>
-            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
           </div>
+          <p><a class="link-gray fs-18" href="tel:+7(650)1065731">+7 650 106 57 31</a></p>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <p class="fs-12 pb-2 mb-2 gold-line-bottom">e-mail</p>
+          </div>
+          <p><a class="link-gray fs-18" href="mailto:76501065731@yandex.ru">76501065731@yandex.ru</a></p>
         </div>
       </div>
 
       <div class="row">
         <!-- для партнёров -->
-        <div class="col-md-6 partner">
-          <h3 class="contacts-h3 w-100 mb-4">Для партнёров</h3>
-          <div class="col-md-12 mb-5">
-            <div class="contacts-block">
-              <div class="contacts-block-top">
-                <p class="f-12 pb-2 mb-2 gold-line-bottom">телефон</p>
-              </div>
-              <a class="link-gray contacts-link" href="tel:+7(650)1065731">
-                +7 650 106 57 31
-              </a>
+        <div class="col-md-5">
+          <h3 class="mb-4">Для партнёров</h3>
+          <div class="mb-1 mb-sm-5">
+            <div class="position-relative">
+              <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
             </div>
+            <p><a class="link-gray fs-18" href="tel:+7(650)1065731">+7 650 106 57 31</a></p>
           </div>
-          <div class="col-md-12 mb-5">
-            <div class="contacts-block">
-              <div class="contacts-block-top gold-line-bottom">
-                <p class="f-12 pb-2 mb-2">e-mail</p>
-              </div>
-              <a class="link-gray contacts-link" href="mailto:76501065731@yandex.ru">
-                76501065731@yandex.ru
-              </a>
+          <div class="mb-5">
+            <div class="position-relative gold-line-bottom">
+              <p class="fs-12 pb-2 mb-2">e-mail</p>
             </div>
+            <p><a class="link-gray fs-18" href="mailto:76501065731@yandex.ru">76501065731@yandex.ru</a></p>
           </div>
         </div>
 
         <!-- для волонтёров -->
-        <div class="col-md-6 volunteer">
-          <h3 class="contacts-h3 w-100 mb-4">Для волонтёров</h3>
-              <div class="contacts-block-top">
-                <p class="f-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
-              </div>
+        <div class="col-md-5">
+          <h3 class="mb-4">Для волонтёров</h3>
+          <p class="position-relative f-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
           <p class="mt-4">Мы всегда рады новым помощникам! Напишите нам и с вами свяжется наш координатор волонтеров.</p>
           <form action="">
             <div class="form-group m-0">
@@ -102,7 +82,7 @@ Template Name: Шаблон страницы "Контакты"
               <textarea class="form-control border-textarea" id="textarea" rows="3" placeholder="Вашe сообщение" required></textarea>
               <label for="textarea"></label>
             </div>
-            <div class="form-group mb-3 form-check gold-line-tl">
+            <div class="form-group mb-3 gold-line-top">
               <input id="inp4" class="form-check-input"  type="checkbox" checked>
               <label class="form-check-label label-font " for="inp4">Согласие на обработку персональных данных</label>
             </div>
@@ -121,9 +101,9 @@ Template Name: Шаблон страницы "Контакты"
 
 
     <!-- колонка реквизиты -->
-    <div class="col-lg-3 col-md-6 requisites fs-12 pt-4">
+    <div class="col-lg-3 col-md-5 mt-5 mt-lg-0 requisites fs-12 pt-4">
       <h4 class="text-left gold-line-top position-relative pt-4">Реквизиты фонда</h4>
-      <p class="requisites-text">"Фонд св. преп. Силуана Афонского"</p>
+      <p>"Фонд св. преп. Силуана Афонского"</p>
       <div>
         Номер счёта:
         <p>40703810513000001134</p>
@@ -156,33 +136,11 @@ Template Name: Шаблон страницы "Контакты"
         Скачать реквизиты
       </a>
     </div>
-    <div class="d-lg-none col-md-6">
-      <div class="map-vertical">
-        <a name="maps">
-          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af76b76def688c88934c0d976dfbb8cfc00f020fd048dec3e18c2008250c9c541&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
-        </a>
-      </div>
-    </div>
 
+    <div class="col-12 col-sm-7 col-lg-12 mt-5" id="map"></div>
   </div>
 </div>
 
-
-
-<script type="text/javascript">
-</script>
-
-
-<!-- карта для большой версии -->
-<div class="container" >
-  <div class="row mt-4">
-    <div class="col-lg-12">
-
-      <div id="map"></div>
-
-    </div>
-  </div>
-</div>
 
 
 

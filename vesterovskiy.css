@@ -39,65 +39,9 @@
   color: #4C4C4C;
 }
 
-.contacts-h2 {
-  padding: 0 15px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 30px;
-  line-height: 58px;
-  text-transform: uppercase;
-  text-align: left;
-  color: 
-}
-
-.contacts-h3 {
-  padding: 0 15px;
-  text-align: left;
-  color: #000;
-}
-
-.contacts-h4 {
-  text-align: left;
-}
-
-.contacts-link {
-  font-size: 18px;
-/*  font-family: 'Cormorant Garamond', serif;*/
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  color: red;
-  word-break: break-all;
-}
-
-
-
-
-
-/***** Контакты *****/
-.contacts-block-top {
-  position: relative;
-}
-
-.list-group {
-  flex-direction: row;
-}
-
-.list-group,
-.list-group-item {
-  flex-grow: 1;
-  border: none;
-}
-
-
-
 
 
 /***** Форма *****/
-.volunteer {
-  position: relative;
-}
 
 .border-input {
   border-top: none;
@@ -115,18 +59,6 @@
 .label-font {
   font-size: 12px;
 }
-
-.volunteer-btn {
-  display: block;
-  margin: 0 auto;
-}
-
-.volunteer .gold-line-tl::after {
-  top: -10px;
-  left: 0px;
-}
-
-
 
 
 
@@ -147,20 +79,6 @@
   position: absolute;
 }
 
-.requisites-text {
-  font-size: 16px;
-  white-space: normal;
-}
-/*
-.requisites-text-header {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 16px;
-  font-weight: bold;
-  white-space: normal;
-}*/
-
-
 
 /*Карта*/
 .map-vertical {
@@ -169,27 +87,6 @@
   border-radius: 5px;
   overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 991px) {
