@@ -18,18 +18,6 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 .form-control {
 	padding-left: 0;
 }
-/*
-input[type="checkbox"] {
-	display: none;
-}
-input[type="checkbox"] + label:before {
-}
-*/
-
-
-
-
-
 input[type="checkbox"] {
 	opacity: 0;
 }
@@ -52,7 +40,7 @@ border: 1px solid #F4CE77;
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	left: 15px;
+	left: 0;
 }
 input[type="checkbox"]:checked + label:before {
 	font-family: 'check' !important;
@@ -61,34 +49,6 @@ input[type="checkbox"]:checked + label:before {
 input[type="checkbox"]:focus + label:before {
 	box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(244, 206, 119,.7);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /************************************************************/
 /*heart buttons*/
