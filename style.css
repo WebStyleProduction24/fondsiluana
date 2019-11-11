@@ -244,6 +244,15 @@ p, .content {
 	width: 60px;
 	position: absolute;
 }
+/*класс для линии сверху. Вестеровский*/
+.gold-line-tl::after {
+	content: '';
+	border-top: 1px solid #F4CE77;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
 footer .gold-line-tl::after {
 	width: 140px;
 	top: -10px;
