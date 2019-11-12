@@ -5,7 +5,7 @@
 
 		<div class="col-lg-6">
 			<h2><span class="f-gold">&laquo;</span>Выйди к людям, возьми на&nbsp;себя их горе –  и тебе легче будет<span class="f-gold">&raquo;</span></h2>
-			<div class="content text-right gold-line-tr position-relative py-2 a">преп. Силуан Афонский</div>
+			<div class="content text-right gold-line-top-right position-relative py-2 a">преп. Силуан Афонский</div>
 
 			<div class="content fs-14 gold-line-bottom py-4">
 				<p>Наконец, спустя 3 года непрерывных усилий, нам удалось зарегистрировать долгожданный благотворительный фонд. Давняя мечта иметь возможность делать что-то доброе во Славу Божью придавала нам сил и не давала опускать руки после очередных неудач.</p>
@@ -67,7 +67,7 @@
 						if( have_posts() ){ while( have_posts() ){ the_post(); ?>
 							<?php global $post; ?>
 							<div class="col-md-6">
-								<h4 class="gold-line-tl" style="line-height: 35px;"><?php the_title(); ?></h4>
+								<h4 class="gold-line-top" style="line-height: 35px;"><?php the_title(); ?></h4>
 
 								<?php the_excerpt(); ?>
 								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
@@ -109,7 +109,7 @@ wp_reset_query();
 					<div class="col-md-3">
 						<h3>Им помогли</h3>
 						<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
-						<h4 class="gold-line-tl">София и Меркурий</h4>
+						<h4 class="gold-line-top">София и Меркурий</h4>
 						<p>Острый лимфобластный лейкоз (рак крови)</p>
 						<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 						<div class="collected mt-5">
