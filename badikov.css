@@ -58,13 +58,9 @@
 
 /*---offer---*/
 
-.offer__help-item-text {    
-        text-align: justify;
-    }
+
     
-.offer__title{
-    margin-top: 60px;
-}
+
 
 .offer__progress-bar{
     margin-top: 89px;
@@ -72,7 +68,7 @@
 }
 
 
-.offer__title-text{
+.h1{
     font-family: 'Cormorant Garamond', serif;
     font-size: 55px;
     color: #2B2B2B;    
@@ -153,30 +149,14 @@
     
 }
 
-.helpp{
-    width: 100%;
-}
-
 .offer__help{
-    margin-top: 89px;
-}
-
-.offer__help-item{
-    margin-top: 50px;
-}
-
-.offer__help-seek{
-    margin-top: 38px;
+    margin-top: 97px;
 }
 
 .offer__help-item-text{
  font-family: 'Cormorant Garamond', serif;
  font-size: 17px;
-
-
 }
-
-
 
 .up_text{
  font-family: 'Cormorant Garamond', serif;
@@ -184,20 +164,12 @@
  
 }
 
-.offer__help-seek-img{
-   
-}
-
-.help__img{
-    width: 100%;
-}
 
 .offer__help-seek-line{
     border: none;
     border-top: 2px solid #F4CE77;
     width: 72px;    
-    border-radius: 1px;
-    margin-left: 366px;
+    border-radius: 1px;   
     margin-top: -11px;
 }
 
@@ -205,104 +177,15 @@
     margin-left: 345px;
 }
 
-/*---footer---*/
 
-.footer{
-    background: #F6F6F6;  
-    margin-top: 56px;
-    margin-bottom: 174px;
-}
-
-.footer__logo{
-    margin-top: 40px;
-}
-
-.footer__menu{
-    margin-left: 43px;
-    margin-top: 40px;
-}
-
-
-.footer__menu-item{
-   
-    margin:0 auto;
-    
-}
-
-.footer__menu-item a {
-    color: #4C4C4C;
-    line-height: 2;
-    text-decoration:none;
-    cursor: pointer;
-    position:relative;
-}
-
-.footer__menu-item a:before {
-    background-color: #F4CE77;
-    display: block;
-    content: "";
-    height: 2px;
-    width: 0%;
-    left:50%;
-    position:absolute;
-    -webkit-transition: width .3s ease-in-out;
-    -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    transform:translateX(-50%);
-}
-
-.footer__menu-item a:hover:before,
-.footer__menu-item a:focus:before {
-    width: 100%;
-}
-
-.wl{
-    width: 29px;
-    margin-right: 24px;
-    margin-left: 26px;
-}
-
-.footer__place{
-    margin-top: 40px;
-    
-}
-
-.footer__phone{
-    margin-bottom: 10px;
-}
-
-.footer__phone a{
-    text-decoration: none;
-    color: #4C4C4C;  
-}
-
-.phone{
-     font-size: 24px;
-}
-
-.telephone{
-    margin-right: 11px;
-    height: 15px;
-    margin-top: 10px;
-}
-
-.mapss{
-    margin-right: 11px;
-    height: 15px;
-    margin-top: 1px;
-}
-
-.footer__text{
-    margin-top: 45px;
-    font-size: 10px;
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1024px) { 
-    .header__menu-nav {
-        margin-left: 239px;
-    }
+   
 
     .offer__title-text {       
         font-size: 40px;       
@@ -324,13 +207,9 @@
         margin-left: 80px;
     }
 
-    .offer__help-item-text {    
-        text-align: justify;
-    }
+    
 
-    .offer__help-seek-text {    
-        text-align: justify;
-    }
+    
 
     .offer__help-seek-img-text {
         margin-left: 260px;
@@ -359,38 +238,12 @@
 
 @media screen and (max-width: 768px) { 
 
-    .header__menu-nav {
-        margin-left: 107px;
-    }
+   
     .wrapper-menu{
         display: none;
     }
 
-    .header__logo {    
-    text-align: center;
-    }
-
-    .header__text-help {    
-    text-align: center;
-    }
-
-    .header__text-help a:before {    
-    right: 110px;
-    }
-
-    .header__text-vol {        
-        text-align: center;
-    }
-
-    .header__text-vol a:before {
-        right: 97px;
-    }
-
-    .header__red {      
-        text-align: center;
-    }
-
-    .offer__title-text {
+     .offer__title-text {
        font-size: 36px;        
     }
 
@@ -457,22 +310,11 @@
 
 @media screen and (max-width: 360px) { 
 
-    .header__menu-nav {
-    margin-left: 0px;
-}
       .wrapper-menu{
         display: flex;
     }
 
-    .header__menu-nav{
-        flex-direction: column;
-        margin-left: 0px;
-    }
-
-    .header__menu-item a {   
-        line-height: 3;
-        
-    }
+    
 
     .wl {
             margin-right: 22px;
@@ -488,31 +330,7 @@
         width: 100%;
     }
 
-    .header__menu {   
-     display: none;   
-    text-align: center;
-    }
-
-    .header__text-help {  
-    text-align: center;
-    }
-
-    .header__text-vol {    
-    text-align: center;
-    }
-
-    .header__text-help a:before {  
-    right: 100px;
-    }
-
-    .header__text-vol a:before {    
-    right: 93px;
-    }
-
-    .header__red {    
-    text-align: center;
-    }
-
+   
     .offer__title-text {
      font-size: 18px;    
     }
