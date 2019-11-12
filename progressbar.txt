@@ -2,7 +2,7 @@
 			<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php //echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="София и Меркурий"></a>
 		</div>
 		<div class="col-lg-4">
-			<h4 class="gold-line-tl">София и Меркурий</h4>
+			<h4 class="gold-line-top">София и Меркурий</h4>
 			<p>Острый лимфобластный лейкоз (рак крови)</p>
 			<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
 		</div>
