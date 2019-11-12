@@ -4,13 +4,67 @@
 
 */
 
+/*Новые стили для этой страницы отдели в отдельный блок сюда, чтобы я пока не мешал тебе, когда буду переносить и править предыдущие*/
+
+/*========================================================*/
+/*=================== help-necessary =====================*/
+
+
+
+
+/*f-red предлагаю внести в общие стили*/
+.f-red {
+  color: #CA030F;
+}
+/*
+.help-text-margin {
+  margin-left: 30px;
+}*/
+
+@media (max-width: 991px) {
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 35px;
+  }
+}
+
+
+
+
+/*========================================================*/
+/*========================================================*/
+
+/*
+правки:
+  +ul заменить на col
+  +Красный текст в кнопке реквизиты
+  +Сердце в ней поправить
+  +кнопка в форме
+  +адрес/тлф/емайл - сделать три в ряд на планшете
+  +подчёркивания вылечить и проверить на других страницах
+  +на планше реквизиты слева, карту справа
+  -Некорректные шрифты (пересмотреть)
+  -чекбокс
+
+*/
+
+
 /*типографика для страницы контакты*/
+
 .contacts-wrapper {
   line-height: 26px !important;
+  color: #4C4C4C;
 }
 
 .contacts-h2 {
-  padding: 0 20px;
+  padding: 0 15px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -18,12 +72,13 @@
   line-height: 58px;
   text-transform: uppercase;
   text-align: left;
-  color: #000;
+  color: 
 }
 
 .contacts-h3 {
-  padding: 0 20px;
+  padding: 0 15px;
   text-align: left;
+  color: #000;
 }
 
 .contacts-h4 {
@@ -31,7 +86,7 @@
 }
 
 .size20 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -39,20 +94,14 @@
   padding-bottom: 10px;
 }
 
-.contacts-b {
-  font-size: 22px;
+.contacts-link {
+  font-size: 18px;
 /*  font-family: 'Cormorant Garamond', serif;*/
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
-}
-
-.contacts-link {
-  font-size: 22px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  white-space: nowrap;
+  font-weight: 500;
+  color: red;
+  word-break: break-all;
 }
 
 
@@ -75,15 +124,14 @@
 }
 
 
-/*партнёры-волонтёры*/
-.partner {
-}
 
-.volunteer {
-}
 
 
 /***** Форма *****/
+.volunteer {
+  position: relative;
+}
+
 .border-input {
   border-top: none;
   border-left: none;
@@ -106,22 +154,33 @@
   margin: 0 auto;
 }
 
+.volunteer .gold-line-top::after {
+  top: -10px;
+  left: 0px;
+}
+
+
+
 
 
 /***** Блок реквизиты *****/
-
 .requisites {
-  border: 1px solid #979797;
-  border-radius: 3px;
+  position: relative;
   padding-top: 40px;
   padding-bottom: 10px;
+  border: 1px solid #979797;
+  border-radius: 3px;
   align-self: flex-start;
+}
+
+.requisites .gold-line-top::after{
+  top: 30px;
+  left: 15px;
 }
 
 .requisites-text {
   font-size: 16px;
   white-space: normal;
-
 }
 
 .requisites-text-header {
@@ -130,24 +189,13 @@
   font-size: 16px;
   font-weight: bold;
   white-space: normal;
-
 }
 
-.requisites-btn {
-  position: relative;
-  border-top: 1px solid #E20613;
-  border-left: 1px solid #E20613;
-  border-bottom: 1px solid #E20613;
+/*кнопка скачать реквизиты*/
+.white-beneficence {
   width: 220px;
-}
-
-.requisites-btn::after {
-  content: "";
-  position: absolute;
-  width: 31px;
-  height: 28px;
-  bottom: 0px;
-  right: -17px;
+  border: 1px solid #FF010B;
+  color: #FF010B;
   background-image: url(img/heart-btn.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -155,11 +203,16 @@
 }
 
 
-
 /*Карта*/
-.map {
-  min-height: 300px;
-  margin-top: 50px;
+.map-vertical {
+  height: 100%;
+  background-color: #F4EEE1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bottom-map {
+  max-height: 300px;
   background-color: #F4EEE1;
 }
 
@@ -184,45 +237,45 @@
 
 
 
+
 @media (max-width: 991px) {
-  .contacts-h2,
-  .contacts-h3 {
-    margin-bottom: 0;
-    font-size: 25px
+  .contacts-h2 {
+    text-align: center;
   }
 
-  .requisites {
-    margin: auto;
-  }
-
-  .list-group {
-    flex-direction: column;
-  }
-
-  .gold-line-bottom::after {
+  .bottom-map {
     display: none;
   }
 
-  .contacts,
-  .partner,
-  .volunteer {
-    margin-bottom: 70px;
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 15px;
   }
+
 }
 
 
-
-
 @media (max-width: 767px) {
-  .contacts-h2,
   .contacts-h3 {
     text-align: center;
   }
 
+  .map-vertical {
+    display: none;
+  }
 
+  .bottom-map {
+    display: block;
+  }
 
-  .list-group-item {
-    text-align: center;
+  .requisites {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 35px;
   }
 }
 

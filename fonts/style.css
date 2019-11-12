@@ -2,9 +2,21 @@
   font-family: 'icomoon';
   src:  url('icon-social/icomoon.eot?39oh1w');
   src:  url('icon-social/icomoon.eot?39oh1w#iefix') format('embedded-opentype'),
-    url('icon-social/icomoon.ttf?39oh1w') format('truetype'),
-    url('icon-social/icomoon.woff?39oh1w') format('woff'),
-    url('icon-social/icomoon.svg?39oh1w#icomoon') format('svg');
+  url('icon-social/icomoon.ttf?39oh1w') format('truetype'),
+  url('icon-social/icomoon.woff?39oh1w') format('woff'),
+  url('icon-social/icomoon.svg?39oh1w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'check';
+  src:  url('icons/check.eot?turnts');
+  src:  url('icons/check.eot?turnts#iefix') format('embedded-opentype'),
+  url('icons/check.ttf?turnts') format('truetype'),
+  url('icons/check.woff?turnts') format('woff'),
+  url('icons/check.svg?turnts#check') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
