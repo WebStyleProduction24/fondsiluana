@@ -66,7 +66,7 @@ Template Name: Шаблон страницы "Новости"
             <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
               <div class="row news__title-block">
                 <div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
-                  <h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии</h5>
+                  <h5 class="gold-line-bottom">Милостью Божьей София идёт на поправку</h5>
                 </div>
                 <div class="col-4 col-lg-3 d-table-cell align-middle new-date">
                   <span>22</span>
