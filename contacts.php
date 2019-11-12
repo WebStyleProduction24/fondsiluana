@@ -63,7 +63,7 @@ Template Name: Шаблон страницы "Контакты"
         <!-- для волонтёров -->
         <div class="col-md-5">
           <h3 class="mb-4">Для волонтёров</h3>
-          <p class="position-relative f-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
+          <p class="position-relative fs-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
           <p class="mt-4">Мы всегда рады новым помощникам! Напишите нам и с вами свяжется наш координатор волонтеров.</p>
           <form action="">
             <div class="form-group m-0">
@@ -87,9 +87,7 @@ Template Name: Шаблон страницы "Контакты"
               <label class="form-check-label fs-10" for="inp4">Согласие на обработку персональных данных</label>
             </div>
             <div class="col-12 position-relative">
-              <a href="#" class="w-100 text-white hrt-btn fs-10 btn" tabindex="-1" role="button" aria-disabled="true">
-                Стать волонтёром
-              </a>
+              <a href="#" class="w-100 text-white hrt-btn fs-10 btn" tabindex="-1" role="button" aria-disabled="true">Стать волонтёром</a>
             </div>
           </form>
         </div>

@@ -5,7 +5,7 @@
 
 		<div class="col-lg-6">
 			<h2><span class="f-gold">&laquo;</span>Выйди к людям, возьми на&nbsp;себя их горе –  и тебе легче будет<span class="f-gold">&raquo;</span></h2>
-			<div class="content text-right gold-line-tr position-relative py-2 a">преп. Силуан Афонский</div>
+			<div class="content text-right gold-line-top-right position-relative py-2 a">преп. Силуан Афонский</div>
 
 			<div class="content fs-14 gold-line-bottom py-4">
 				<p>Наконец, спустя 3 года непрерывных усилий, нам удалось зарегистрировать долгожданный благотворительный фонд. Давняя мечта иметь возможность делать что-то доброе во Славу Божью придавала нам сил и не давала опускать руки после очередных неудач.</p>

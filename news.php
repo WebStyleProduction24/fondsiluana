@@ -23,7 +23,7 @@ Template Name: Шаблон страницы "Новости"
       <!-- Основной блок -->
       <div class="col-lg-8 col-md-12">
         <h2 class="mb-3 mb-sm-5">Объявлен сбор средств на покупку неонатальных термокроваток</h2>
-        <div class="content text-right gold-line-tr position-relative py-2 pb-4 a">27 Июля 2019</div>
+        <div class="content text-right gold-line-top position-relative py-2 pb-4 a">27 Июля 2019</div>
         <img src="/wp-content/uploads/2019/07/krovatka.png" alt="Неонатальные термокроватки" class="w-100">
         <div class="content fs-14 py-4">
           <p>

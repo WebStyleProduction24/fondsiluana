@@ -11,7 +11,6 @@ License URI: LICENSE
 GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
-
 /************************************************************/
 /*Forms*/
 /************************************************************/
@@ -34,7 +33,7 @@ input[type="checkbox"] + label:before {
 	border: 1px solid #F4CE77;
 	vertical-align: middle;
 
-border: 1px solid #F4CE77;
+	border: 1px solid #F4CE77;
 
 	content: '';
 	width: 20px;
@@ -259,9 +258,10 @@ footer .gold-line-top::before {
 	right: 0;
 	left: inherit;
 }
-.gold-line-tr::after {
+.text-right.gold-line-top::before {
 	top: 0;
 	right: 0;
+	left: inherit;
 }
 .gold-line-bottom::after {
 	bottom: 3px;
