@@ -16,21 +16,21 @@
 .f-red {
   color: #CA030F;
 }
-
+/*
 .help-text-margin {
   margin-left: 30px;
-}
+}*/
 
 @media (max-width: 991px) {
   /*cтраница help-necessary*/
-  .help-description.gold-line-tl::after {
+  .help-description.gold-line-top::after {
     top: 15px;
   }
 }
 
 @media (max-width: 767px) {
   /*cтраница help-necessary*/
-  .help-description.gold-line-tl::after {
+  .help-description.gold-line-top::after {
     top: 35px;
   }
 }
@@ -154,7 +154,7 @@
   margin: 0 auto;
 }
 
-.volunteer .gold-line-tl::after {
+.volunteer .gold-line-top::after {
   top: -10px;
   left: 0px;
 }
@@ -173,7 +173,7 @@
   align-self: flex-start;
 }
 
-.requisites .gold-line-tl::after{
+.requisites .gold-line-top::after{
   top: 30px;
   left: 15px;
 }
@@ -248,7 +248,7 @@
   }
 
   /*cтраница help-necessary*/
-  .help-description.gold-line-tl::after {
+  .help-description.gold-line-top::after {
     top: 15px;
   }
 
@@ -274,7 +274,7 @@
   }
 
   /*cтраница help-necessary*/
-  .help-description.gold-line-tl::after {
+  .help-description.gold-line-top::after {
     top: 35px;
   }
 }

@@ -245,7 +245,7 @@ p, .content {
 	position: absolute;
 }
 /*класс для линии сверху. Вестеровский*/
-.gold-line-tl::after {
+.gold-line-top::before {
 	content: '';
 	border-top: 1px solid #F4CE77;
 	width: 60px;
@@ -253,7 +253,7 @@ p, .content {
 	top: 0;
 	left: 15px;
 }
-footer .gold-line-tl::after {
+footer .gold-line-top::before {
 	width: 140px;
 	top: -10px;
 	right: 0;
@@ -262,10 +262,6 @@ footer .gold-line-tl::after {
 .gold-line-tr::after {
 	top: 0;
 	right: 0;
-}
-.gold-line-tl::after {
-	top: 0;
-	left: 15px;
 }
 .gold-line-bottom::after {
 	bottom: 3px;

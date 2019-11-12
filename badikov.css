@@ -85,7 +85,6 @@
 
 .offer__bar-progress{
     border: 1px solid #DADADA;
-    width: 290px;
     height: 11px;   
 }
 
@@ -100,10 +99,10 @@
     font-size: 15px;
 }
 
-.offer__bar-progress-yelow{    
+.offer__bar-progress-yelow{
     border: none;
     border-top: 5px solid #F4CE77;
-    width: 109px;
+    width: 35%;
     margin-top: 2px;
     margin-left: 3px;
 
@@ -112,7 +111,7 @@
 .offer__bar-progress-red{
     border: none;
     border-top: 5px solid #E20613;
-    width: 174px;
+    width: 65%;
     margin-top: 2px;
     margin-left: 3px;
     margin-right: 3px;

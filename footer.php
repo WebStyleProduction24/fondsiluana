@@ -20,7 +20,7 @@
 								<span class="icon-location size25"></span>г.&nbsp;Воронеж,&nbsp;Московский пр-т, д.&nbsp;67, оф.&nbsp;307
 							</div>
 							<div style="clear: both;"></div>
-							<div class="gold-line-tl position-relative my-4">
+							<div class="gold-line-top position-relative my-4">
 								<a href="instagram.com" target="_blank" class="icon-instagram"></a>
 								<a href="https://facebook.com"target="_blank"  class="icon-facebook"></a>
 								<a href="vk.com" target="_blank" class="icon-vk"></a>
