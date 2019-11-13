@@ -30,7 +30,7 @@ Template Name: Шаблон страницы Им помогли
 								<span>Собрано</span>
 								<span class="sum">363570</span>
 								<div class="contBigLine">
-									<div class="bigLine"><img src="img/heart_pic.png" alt=""></div>
+									<div class="bigLine"><img src="img/heart.jpg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -48,7 +48,7 @@ Template Name: Шаблон страницы Им помогли
 								<span>Собрано</span>
 								<span class="sum">363570</span>
 								<div class="contBigLine">
-									<div class="bigLine"><img src="img/heart_pic.png" alt=""></div>
+									<div class="bigLine"><img src="img/heart.jpg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@ Template Name: Шаблон страницы Им помогли
 								<span>Собрано</span>
 								<span class="sum">363570</span>
 								<div class="contBigLine">
-									<div class="bigLine"><img src="img/heart_pic.png" alt=""></div>
+									<div class="bigLine"><img src="img/heart.jpg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -86,7 +86,7 @@ Template Name: Шаблон страницы Им помогли
 								<span>Собрано</span>
 								<span class="sum">363570</span>
 								<div class="contBigLine">
-									<div class="bigLine"><img src="img/heart_pic.png" alt=""></div>
+									<div class="bigLine"><img src="img/heart.jpg" alt=""></div>
 								</div>
 							</div>
 						</div>
@@ -116,7 +116,7 @@ Template Name: Шаблон страницы Им помогли
 							</div>
 						</div>
 				
-						<button class="whiteBut">Помочь Саше <img src="img/heart_pic.png" alt=""></button>
+						<button class="whiteBut">Помочь Саше <img src="img/heart.jpg" alt=""></button>
 					</div>
 				</div>
 			</div>
