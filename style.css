@@ -14,51 +14,6 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 
 
 
-
-/************************************************************/
-/*Временное, чтобы не ломать сразу структуру элементов на других страницах*/
-/************************************************************/
-.offer__bar-text{
-    margin-right: 135px;
-
-}
-
-.offer__bar-progress{
-    border: 1px solid #DADADA;
-    width: 290px;
-    height: 11px;   
-}
-
-.offer__bar-money-item-yelow{
-    margin-right: 165px;
-     color: #F4CE77;
-     font-size: 15px;
-}
-
-.offer__bar-money-item-red{
-    color: #E20613;
-    font-size: 15px;
-}
-
-.offer__bar-progress-yelow{    
-    border: none;
-    border-top: 5px solid #F4CE77;
-    width: 109px;
-    margin-top: 2px;
-    margin-left: 3px;
-
-}
-
-.offer__bar-progress-red{
-    border: none;
-    border-top: 5px solid #E20613;
-    width: 174px;
-    margin-top: 2px;
-    margin-left: 3px;
-    margin-right: 3px;
-}
-
-
 /************************************************************/
 /*Forms*/
 /************************************************************/
@@ -81,7 +36,7 @@ input[type="checkbox"] + label:before {
 	border: 1px solid #F4CE77;
 	vertical-align: middle;
 
-border: 1px solid #F4CE77;
+	border: 1px solid #F4CE77;
 
 	content: '';
 	width: 20px;
@@ -291,19 +246,39 @@ p, .content {
 	width: 60px;
 	position: absolute;
 }
-footer .gold-line-tl::after {
+/*класс для линии сверху. Вестеровский*/
+.gold-line-top::before {
+	content: '';
+	border-top: 1px solid #F4CE77;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+.gold-line-top-left::before {
+	content: '';
+	border-top: 1px solid #F4CE77;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+footer .gold-line-top::before {
 	width: 140px;
 	top: -10px;
 	right: 0;
 	left: inherit;
 }
-.gold-line-tr::after {
+footer .gold-line-top-left::before {
+  width: 140px;
+  top: -10px;
+  left: 0;
+  left: inherit;
+}
+.text-right.gold-line-top::before {
 	top: 0;
 	right: 0;
-}
-.gold-line-tl::after {
-	top: 0;
-	left: 15px;
+	left: inherit;
 }
 .gold-line-bottom::after {
 	bottom: 3px;
@@ -363,6 +338,12 @@ footer .gold-line-tl::after {
 	font-style: normal;
 	font-weight: 400;
 }
+.size13 {
+	font-size: 13px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+}
 .size25
 {
 	font-size: 26px;
@@ -370,29 +351,17 @@ footer .gold-line-tl::after {
 	font-style: normal;
 	font-weight: 300;
 	letter-spacing: 2px;
+}
+.size24 {
+	font-size: 24px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
 
-}
-span.size25
-{
-	font-size: 20px;
-}
-.contacts-footer {
-	width: 340px;
-	position: relative;
-	width: 275px;
-	float: right;
-	line-height: 2.5;
-}
-.contacts-footer:first-child{
-	line-height: 1;
-	margin-bottom: 5px;
-}
-.contacts-footer span {
-	position: absolute;
-	left: 0;
-}
 .copyright {
-	font-size: 8px;
+	font-size: 12px;
 	text-align: center;
 }
 

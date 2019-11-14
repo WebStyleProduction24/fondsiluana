@@ -1,4 +1,4 @@
-		</main>
+</main>
 		<footer class="mt-5 pt-4">
 
 
@@ -17,10 +17,10 @@
 								<span class="icon-phone size25"></span><a href="tel:+76501065731"class="button-board-border link-gray size25">+7&nbsp;960&nbsp;106&nbsp;57&nbsp;31</a>
 							</div>
 							<div class="size0_9 contacts-footer">
-								<span class="icon-location size25"></span>г.&nbsp;Воронеж,&nbsp;Московский пр-т, д.&nbsp;67, оф.&nbsp;307
+								<span class="icon-location size25"></span>г.&nbsp;ул.&nbsp;Комиссаржевской, д.&nbsp;10, оф.&nbsp;910
 							</div>
 							<div style="clear: both;"></div>
-							<div class="gold-line-tl position-relative my-4">
+							<div class="gold-line-top position-relative my-4">
 								<a href="instagram.com" target="_blank" class="icon-instagram"></a>
 								<a href="https://facebook.com"target="_blank"  class="icon-facebook"></a>
 								<a href="vk.com" target="_blank" class="icon-vk"></a>
