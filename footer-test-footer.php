@@ -64,11 +64,11 @@
 
 
       <!-- 3 контакты -->
-      <div class="col-lg-4 col-md-5 col-12 mb-lg-3 mb-5">
+      <div class="col-lg-3 col-md-5 col-12 mb-lg-3 mb-5">
         <div class="contacts-footer text-md-right text-center">
           <div class="mb-3">
             <span class="icon-phone footer-icon"></span>
-            <a href="tel:+76501065731" class="link-gray size25">
+            <a href="tel:+76501065731" class="link-gray size24">
               +7&nbsp;960&nbsp;106&nbsp;5731
             </a>
             <div class="d-block">
@@ -77,8 +77,8 @@
             </div>  
           </div>
           <div>
-            <p class="d-inline">г.&nbsp;Воронеж<br>
-              <span class="icon-location size25"></span>
+            <p class="d-inline size13">г.&nbsp;Воронеж<br>
+              <span class="icon-location size24"></span>
               ул. Комиссаржевской, д.&nbsp;10, оф.&nbsp;910</p>
           </div>
         </div>
