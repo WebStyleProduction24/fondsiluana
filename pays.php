@@ -61,7 +61,7 @@ Template Name: Шаблон Формы оплаты
 			</div>
 
 			<div class="row justify-content-center">
-				<div class="col-6 position-relative">
+				<div class="col-md-6 position-relative">
 					<a href="#" class="w-100 text-white hrt-btn fs-10 btn" tabindex="-1" role="button" aria-disabled="true">Пожертвовать</a>
 				</div>
 			</div>
