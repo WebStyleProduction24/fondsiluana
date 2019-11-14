@@ -16,7 +16,7 @@
 		</div>
 
 		<div class="col-lg-6 text-center position-relative">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/afonskiy.png" alt="преп. Силуан Афонский" class="img-fluid">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/afonskiy.png" alt="преп. Силуан Афонский" class="w-100">
 			<img class="position-absolute bcg-afonskiy-1" src="<?php echo get_template_directory_uri(); ?>/img/bcg-afonskiy-1.png" alt="преп. Силуан Афонский">
 			<img class="position-absolute bcg-afonskiy-2" src="<?php echo get_template_directory_uri(); ?>/img/bcg-afonskiy-2.png" alt="преп. Силуан Афонский">
 
@@ -70,7 +70,7 @@
 								<h4 class="gold-line-top" style="line-height: 35px;"><?php the_title(); ?></h4>
 
 								<?php the_excerpt(); ?>
-								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
+								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="w-100" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
 
 							</div>
 						<?php } /* конец while */ ?>
@@ -108,7 +108,7 @@ wp_reset_query();
 					</div>
 					<div class="col-md-3">
 						<h3>Им помогли</h3>
-						<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
+						<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
 						<h4 class="gold-line-top">София и Меркурий</h4>
 						<p>Острый лимфобластный лейкоз (рак крови)</p>
 						<p class="text-right"><a href="/pervyj-sbor-sredstv/" class="button border-bottom gold-border pb-1 link-gray">Подробнее</a></p>
