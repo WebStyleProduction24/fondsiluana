@@ -273,41 +273,6 @@ footer li {
 
 
 
-/***** Форма *****/
-.volunteer {
-  position: relative;
-}
-
-.border-input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-}
-
-.border-textarea {
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-}
-
-.label-font {
-  font-size: 12px;
-}
-
-.volunteer-btn {
-  display: block;
-  margin: 0 auto;
-}
-
-.volunteer .gold-line-top::after {
-  top: -10px;
-  left: 0px;
-}
-
-
-
-
 
 /***** Блок реквизиты *****/
 .requisites {

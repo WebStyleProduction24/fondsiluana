@@ -66,25 +66,16 @@ Template Name: Шаблон страницы "Контакты"
           <p class="position-relative fs-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
           <p class="mt-4">Мы всегда рады новым помощникам! Напишите нам и с вами свяжется наш координатор волонтеров.</p>
           <form action="">
-            <div class="form-group m-0">
-              <input id="inp1" class="form-control border-input"  type="text" placeholder="Ваше имя" required>
-              <label for="inp1"></label>
-            </div>
-            <div class="form-group m-0">
-              <input id="inp2" class="form-control border-input"  type="text" placeholder="Контактный телефон" required>
-              <label for="inp2"></label>
-            </div>
-            <div class="form-group m-0">
-              <input id="inp3" class="form-control border-input"  type="text" placeholder="Ваш e-mail" required>
-              <label for="inp3"></label>
-            </div>
-            <div class="form-group m-0">
-              <textarea class="form-control border-textarea" id="textarea" rows="3" placeholder="Вашe сообщение" required></textarea>
-              <label for="textarea"></label>
-            </div>
-            <div class="form-group my-3 pt-2 gold-line-top position-relative">
+            <input id="inp1" class="form-control brd-inp"  type="text" placeholder="Ваше имя" required>
+            <label for="inp1"></label>
+            <input id="inp2" class="form-control brd-inp"  type="text" placeholder="Контактный телефон" required>
+            <label for="inp2"></label>
+            <input id="inp3" class="form-control brd-inp"  type="text" placeholder="Ваш e-mail" required>
+            <label for="inp3"></label>
+            <textarea class="form-control border-textarea" id="textarea" rows="3" placeholder="Вашe сообщение" required></textarea>
+            <div class="mb-3 mt-5 pt-2 gold-line-top position-relative">
               <input id="inp4" class="form-check-input"  type="checkbox" checked>
-              <label class="form-check-label fs-10" for="inp4">Согласие на обработку персональных данных</label>
+              <label class="form-check-label" for="inp4"><a href="#">Согласие на обработку персональных данных</a></label>
             </div>
             <div class="col-12 position-relative">
               <a href="#" class="w-100 text-white hrt-btn fs-10 btn" tabindex="-1" role="button" aria-disabled="true">Стать волонтёром</a>

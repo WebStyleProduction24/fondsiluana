@@ -25,20 +25,14 @@ input[type="checkbox"] {
 }
 input[type="checkbox"] + label {
 	cursor: pointer;
-	padding-left: 25px;
+	padding-left: 30px;
 }
 input[type="checkbox"] + label:before {
-	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #F4CE77;
-	font-size: 17px;
-	border: 1px solid #F4CE77;
 	vertical-align: middle;
-
 	border: 1px solid #F4CE77;
-
-	content: '';
 	width: 20px;
 	height: 20px;
 	position: absolute;
@@ -48,9 +42,48 @@ input[type="checkbox"]:checked + label:before {
 	font-family: 'check' !important;
 	content: "\e901";
 }
-input[type="checkbox"]:focus + label:before {
-	box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(244, 206, 119,.7);
+
+/***** Форма *****/
+.volunteer {
+	position: relative;
 }
+
+.brd-inp {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+.brd-gld {
+	border-bottom: 1px solid #F4CE77;
+}
+
+
+
+
+.border-textarea {
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+.label-font {
+	font-size: 12px;
+}
+
+.volunteer-btn {
+	display: block;
+	margin: 0 auto;
+}
+
+.volunteer .gold-line-top::after {
+	top: -10px;
+	left: 0px;
+}
+
+
+
 
 /************************************************************/
 /*heart buttons*/
@@ -67,10 +100,10 @@ input[type="checkbox"]:focus + label:before {
 	color: #CA030F;
 	text-transform: uppercase;
 }
-.hrt-btn:hover, .hrt-btn:focus, .wht-hrt-btn:hover, .wht-hrt-btn:focus {
-	box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
-	-webkit-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
-	-moz-box-shadow: 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+.hrt-btn:hover, .hrt-btn:focus, .wht-hrt-btn:hover, .wht-hrt-btn:focus, .crd:hover, .crd:focus, input:focus {
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+	-webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
+	-moz-box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0px 0px 7px 5px rgba(202,3,15,0.1) !important;
 }	
 .wht-hrt-btn:hover {
 	color: #CA030F !important;
@@ -253,7 +286,6 @@ p, .content {
 	width: 60px;
 	position: absolute;
 	top: 0;
-	left: 15px;
 }
 .gold-line-top-left::before {
 	content: '';
@@ -270,10 +302,10 @@ footer .gold-line-top::before {
 	left: inherit;
 }
 footer .gold-line-top-left::before {
-  width: 140px;
-  top: -10px;
-  left: 0;
-  left: inherit;
+	width: 140px;
+	top: -10px;
+	left: 0;
+	left: inherit;
 }
 .text-right.gold-line-top::before {
 	top: 0;
