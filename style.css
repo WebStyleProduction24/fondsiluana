@@ -252,11 +252,25 @@ p, .content {
 	top: 0;
 	left: 15px;
 }
+.gold-line-top-left::before {
+	content: '';
+	border-top: 1px solid #F4CE77;
+	width: 60px;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
 footer .gold-line-top::before {
 	width: 140px;
 	top: -10px;
 	right: 0;
 	left: inherit;
+}
+footer .gold-line-top-left::before {
+  width: 140px;
+  top: -10px;
+  left: 0;
+  left: inherit;
 }
 .text-right.gold-line-top::before {
 	top: 0;
@@ -330,27 +344,27 @@ footer .gold-line-top::before {
 	letter-spacing: 2px;
 
 }
-span.size25
+/*span.size25
 {
 	font-size: 20px;
-}
-.contacts-footer {
+}*/
+/*.contacts-footer {
 	width: 340px;
 	position: relative;
 	width: 275px;
 	float: right;
 	line-height: 2.5;
-}
-.contacts-footer:first-child{
+}*/
+/*.contacts-footer:first-child{
 	line-height: 1;
 	margin-bottom: 5px;
 }
 .contacts-footer span {
 	position: absolute;
 	left: 0;
-}
+}*/
 .copyright {
-	font-size: 8px;
+	font-size: 12px;
 	text-align: center;
 }
 

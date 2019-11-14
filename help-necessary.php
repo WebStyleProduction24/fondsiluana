@@ -8,7 +8,7 @@ Template Name: Шаблон страницы "Нужна помощь"
 
 
 
-<?php get_header(); ?>
+<?php get_header('test-header'); ?>
 
 
 
@@ -241,4 +241,4 @@ Template Name: Шаблон страницы "Нужна помощь"
 
 
 
-<?php get_footer(); ?>
+<?php get_footer('test-footer'); ?>
