@@ -40,17 +40,17 @@ Template Name: Шаблон страницы "Нужна помощь"
         <div class="row mb-2">
           <div class="col-5">
             <div class="fs-14">Cобрано</div>
-            <div class="fs-18 f-gold">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-gold">36&nbsp;570&nbsp;₽</div>
           </div>
           <div class="col-7 text-right text-nowrap">
             <div class="fs-14">Осталось собрать</div>
-            <div class="fs-18 f-red ">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-red ">36&nbsp;570&nbsp;₽</div>
           </div>
         </div>
         <div class="offer__bar-progress mb-5">       
-        	<div class="progress">
-        		<div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        	</div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
         <a href="#" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
           Помочь саше
@@ -83,17 +83,17 @@ Template Name: Шаблон страницы "Нужна помощь"
         <div class="row mb-2">
           <div class="col-5">
             <div class="fs-14">Cобрано</div>
-            <div class="fs-18 f-gold">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-gold">36&nbsp;570&nbsp;₽</div>
           </div>
           <div class="col-7 text-right text-nowrap">
             <div class="fs-14">Осталось собрать</div>
-            <div class="fs-18 f-red ">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-red ">36&nbsp;570&nbsp;₽</div>
           </div>
         </div>
         <div class="offer__bar-progress mb-5">       
-        	<div class="progress">
-        		<div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        	</div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
         <a href="#" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
           Помочь саше
@@ -126,17 +126,17 @@ Template Name: Шаблон страницы "Нужна помощь"
         <div class="row mb-2">
           <div class="col-5">
             <div class="fs-14">Cобрано</div>
-            <div class="fs-18 f-gold">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-gold">36&nbsp;570&nbsp;₽</div>
           </div>
           <div class="col-7 text-right text-nowrap">
             <div class="fs-14">Осталось собрать</div>
-            <div class="fs-18 f-red ">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-red ">36&nbsp;570&nbsp;₽</div>
           </div>
         </div>
         <div class="offer__bar-progress mb-5">       
-        	<div class="progress">
-        		<div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        	</div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
         <a href="#" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
           Помочь саше
@@ -169,17 +169,17 @@ Template Name: Шаблон страницы "Нужна помощь"
         <div class="row mb-2">
           <div class="col-5">
             <div class="fs-14">Cобрано</div>
-            <div class="fs-18 f-gold">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-gold">36&nbsp;570&nbsp;₽</div>
           </div>
           <div class="col-7 text-right text-nowrap">
             <div class="fs-14">Осталось собрать</div>
-            <div class="fs-18 f-red ">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-red ">36&nbsp;570&nbsp;₽</div>
           </div>
         </div>
         <div class="offer__bar-progress mb-5">       
-        	<div class="progress">
-        		<div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        	</div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
         <a href="#" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
           Помочь саше
@@ -212,17 +212,17 @@ Template Name: Шаблон страницы "Нужна помощь"
         <div class="row mb-2">
           <div class="col-5">
             <div class="fs-14">Cобрано</div>
-            <div class="fs-18 f-gold">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-gold">36&nbsp;570&nbsp;₽</div>
           </div>
           <div class="col-7 text-right text-nowrap">
             <div class="fs-14">Осталось собрать</div>
-            <div class="fs-18 f-red ">36&nbsp570&nbsp₽</div>
+            <div class="fs-18 f-red ">36&nbsp;570&nbsp;₽</div>
           </div>
         </div>
         <div class="offer__bar-progress mb-5">       
-        	<div class="progress">
-        		<div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-        	</div>
+          <div class="progress">
+            <div class="progress-bar" style="width: 37%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
         <a href="#" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
           Помочь саше
