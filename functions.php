@@ -8,7 +8,7 @@ function enqueue_styles() {
 	wp_enqueue_style( 'font-style');
 	wp_enqueue_style( 'style-socials', get_stylesheet_directory_uri().'/fonts/style.css');
   wp_enqueue_style( 'style-vesterovskiy', get_stylesheet_directory_uri().'/vesterovskiy.css');
-  wp_enqueue_style( 'style-vesterovskiy', get_stylesheet_directory_uri().'/korolev.css');
+  wp_enqueue_style( 'style-korolev', get_stylesheet_directory_uri().'/korolev.css');
   wp_enqueue_style( 'style-badikov', get_stylesheet_directory_uri().'/badikov.css');
 	wp_enqueue_style( 'whitesquare-style', get_stylesheet_uri());
 }
