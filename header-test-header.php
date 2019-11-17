@@ -13,119 +13,61 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-  <?php
-  if( is_home() || is_page(72) ){}
-    else { ?>
-      <div class="container">
-
-        <h4 class="attention">Внимание! Страница работает в режиме разработки, приносим извинения за принесенные неудобства</h4>
-
-      </h2>
-    </div>
-  <?php } ?>
 
   <header>
 
     <!-- навигация -->
-    <div class="container">
-      <div class="col-lg-10">
-        <nav class="navbar navbar-expand-lg">
-          
-         
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" >
-            <div class="wrapper-menu d-lg-none" id="open">
-              <div class="line-menu half start"></div>
-              <div class="line-menu"></div>
-              <div class="line-menu half end"></div>
-            </div>
-          </button>
+    <div class="container mb-5 position-relative">
+     <div class="row justify-content-md-between align-items-center text-center">
 
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <nav class="navbar navbar-expand-md fs-15 mb-4 mb-md-2 mb-lg-4 col-12"> <!-- fs-15 относится к тому, что не нужно плодить стили и можно задать для всего контейнера сразу -->
 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item ml-auto">
-                <a href="#" aria-current="page" class="nav-link link-gray size15">
-                Главная
-              </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="#" class="nav-link link-gray size15">
-                О фонде
-              </a>
-              </li>
-              <li class="nav-item ml-auto active">
-                <a href="http://fondsiluana.localhost/help-necessary/" class="nav-link link-gray size15">
-                Нужна помощь
-              </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="#" class="nav-link link-gray size15">
-                Помогли
-              </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="#" class="nav-link link-gray size15">
-                Друзья
-              </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="#" class="nav-link link-gray size15">
+        <button class="navbar-toggler border py-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" >
+          <div class="wrapper-menu d-lg-none" id="open">
+            <div class="line-menu half start"></div>
+            <div class="line-menu"></div>
+            <div class="line-menu half end"></div>
+          </div>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a href="#" aria-current="page" class="nav-link link-gray">Главная</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-gray">О фонде</a></li>
+            <li class="nav-item active"><a href="http://fondsiluana.localhost/help-necessary/" class="nav-link link-gray">Нужна помощь</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-gray">Помогли</a></li>
+            <li class="nav-item"><a href="#" class="nav-link link-gray">Друзья</a></li>
+            <!-- Пока скрываем после согласования с заказчиком -->
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link link-gray">
                 Отчеты
               </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="http://fondsiluana.localhost/news/" class="nav-link link-gray size15">
-                Новости
-              </a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a href="http://fondsiluana.localhost/contacts/" class="nav-link link-gray size15">
-                Контакты
-              </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>      
-    </div>
+            </li> -->
+            <li class="nav-item"><a href="http://fondsiluana.localhost/news/" class="nav-link link-gray">Новости</a></li>
+            <li class="nav-item"><a href="http://fondsiluana.localhost/contacts/" class="nav-link link-gray">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
 
-
-
-     <!-- ниже навигации -->
-     <div class="container">
-       <div class="row justify-content-lg-between justify-content-md-center" >
-
-         <!-- 1 logo-->
-         <div class="col-lg-4  text-lg-left text-center py-md-4">        
-           <a  href="<?php echo get_home_url(); ?>">
-             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="фонд святого преподобного Силуана" type="image/svg">
-           </a>
-         </div>
-
-         <!-- 2  -->
-         <div class="col-lg-2 col-md-3 py-sm-2 text-center m-lg-auto mb-md-2 fs-15" >
-           <a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Нужна помощь</a>
-         </div>
-
-         <!-- 3  -->
-         <div class="col-lg-2 col-md-3 py-sm-2 text-center m-lg-auto mb-md-2 fs-15" >
-           <a href="#" class="button border-top gold-border pt-1 link-gray button-menu">
-             Стать волонтером
-           </a>
-         </div>
-
-         <div class="d-lg-none w-100"></div> 
-
-         <!-- 4  -->
-         <div class="col-lg-3 w-50 text-center m-auto">
-           <a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="w-100 text-white roboto btn fs-10 hrt-btn" tabindex="-1" role="button" aria-disabled="true">
-             Сделать доброе дело
-           </a>
-         </div>
-
-       </div>
+      <div class="col-md-6 col-lg-4 logo">        
+       <a  href="<?php echo get_home_url(); ?>">
+         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="фонд святого преподобного Силуана" type="image/svg">
+       </a>
      </div>
 
+     <!-- Кнопки -->
+     <div class="col-6 col-md-3 col-lg-2 fs-15"><a href="#" class="button border-top gold-border pt-1 link-gray">Нужна помощь</a></div>  
+     <div class="col-6 col-md-3 col-lg-2 fs-15"><a href="#" class="button border-top gold-border pt-1 link-gray">Стать волонтером</a></div>
+
+
+     <div class="col-lg-3 mt-4 mt-lg-0">
+       <a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="w-100 text-white btn fs-10 hrt-btn" tabindex="-1" role="button" aria-disabled="true">
+         Сделать доброе дело
+       </a>
+     </div>
+
+   </div>
+ </div>
 
 
 
@@ -138,9 +80,10 @@
 
 
 
-  
 
 
-  </header>
 
-  <main>
+
+</header>
+
+<main>

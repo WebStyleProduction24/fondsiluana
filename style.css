@@ -11,7 +11,23 @@ License URI: LICENSE
 GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
+/************************************************************/
+/*Logo*/
+/************************************************************/
 
+.logo {
+	text-align: left;
+}
+
+
+
+/************************************************************/
+/**/
+/************************************************************/
+
+body {
+	margin-top: 1rem
+}
 
 
 /************************************************************/
@@ -205,7 +221,7 @@ body.postid-72 h4.attention {
 	border-top: 1px solid #F4CE77;
 	margin-top: -1px;
 }
-.current-menu-item {
+.current-menu-item, .active {
 	border-top: 1px solid #F4CE77;
 	margin-top: -1px;
 }
@@ -444,6 +460,13 @@ footer .gold-line-top-left::before {
 /*********************************************************************/
 
 @media (max-width: 767px) {
+
+	.logo {
+		position: absolute;
+		right: 0;
+		top: 1rem;
+		max-width: 75%
+	}
 	.news__content {
 		min-height: inherit !important;
 	}

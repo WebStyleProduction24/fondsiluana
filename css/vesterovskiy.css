@@ -12,7 +12,10 @@
 
 
 /*---open menu---*/
-.wrapper-menu {
+
+/*Туда же по поводу не плодить стили! Есть в badikov.css Используй Ctrl+Shift+F для поиска по всему проекту в Sublime, если не уверен*/
+
+/*.wrapper-menu {
   width: 30px;
   height: 30px;
   display: flex;
@@ -54,13 +57,20 @@ header nav .line-menu {
 
 .open .line-menu.end {
   transform: rotate(-90deg) translateX(-3px);
-}
+} */
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   /*не знаю как прописать ширину 100 на md экране. не получается*/
-  header nav li {
-    width: 100%;
+  .nav-item {
+    width: max-content;
     text-align: center;
+    margin-top: 0.5rem !important;
+  }
+  .nav-link {
+    padding-top: 0;
+  }
+  .active {
+    font-weight: 500;
   }
 }
 
@@ -78,12 +88,15 @@ footer li {
   text-align: center;
 }
 
+
+/*Я, по-моему, уже не раз говорил, что ненужно плодить стили, которые уже есть. Смотрим style.css*/
+/*
 .size15 {
   font-size: 15px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-}
+}*/
 
 .footer-icon {
   font-size: 20px;

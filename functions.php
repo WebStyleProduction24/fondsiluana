@@ -6,8 +6,8 @@ function enqueue_styles() {
   wp_enqueue_style( 'bootstrap-4.3.1', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 	wp_register_style('font-style', 'https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto:100,300&display=swap');
 	wp_enqueue_style( 'font-style');
-	wp_enqueue_style( 'style-socials', get_stylesheet_directory_uri().'/fonts/style.css');
   wp_enqueue_style( 'style-vesterovskiy', get_stylesheet_directory_uri().'/css/vesterovskiy.css');
+	wp_enqueue_style( 'style-socials', get_stylesheet_directory_uri().'/fonts/style.css');
   wp_enqueue_style( 'style-vesterovskiy', get_stylesheet_directory_uri().'/css/korolev.css');
   wp_enqueue_style( 'style-badikov', get_stylesheet_directory_uri().'/css/badikov.css');
   wp_enqueue_style( 'style-vasiliev', get_stylesheet_directory_uri().'/css/vasiliev.css');
