@@ -224,6 +224,9 @@ body.postid-72 h4.attention {
 .fs-14 {
 	font-size: 14px !important;
 }
+.fs-15 {
+	font-size: 15px !important;
+}
 .fs-18 {
 	font-size: 18px !important;
 }
@@ -370,12 +373,6 @@ footer .gold-line-top-left::before {
 	font-style: normal;
 	font-weight: 400;
 }
-.size13 {
-	font-size: 13px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-}
 .size25
 {
 	font-size: 26px;
@@ -384,14 +381,25 @@ footer .gold-line-top-left::before {
 	font-weight: 300;
 	letter-spacing: 2px;
 }
-.size24 {
-	font-size: 24px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 2px;
+/*span.size25
+{
+	font-size: 20px;
+}*/
+/*.contacts-footer {
+	width: 340px;
+	position: relative;
+	width: 275px;
+	float: right;
+	line-height: 2.5;
+}*/
+/*.contacts-footer:first-child{
+	line-height: 1;
+	margin-bottom: 5px;
 }
-
+.contacts-footer span {
+	position: absolute;
+	left: 0;
+}*/
 .copyright {
 	font-size: 12px;
 	text-align: center;
