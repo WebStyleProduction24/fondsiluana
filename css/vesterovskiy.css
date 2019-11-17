@@ -81,11 +81,11 @@ header nav .line-menu {
 
 .columns {
   column-count: 3;
+  display: block;
 }
 
 footer li {
-  break-inside: avoid;
-  text-align: center;
+  page-break-inside: avoid;
 }
 
 
@@ -97,7 +97,7 @@ footer li {
   font-style: normal;
   font-weight: 400;
 }*/
-
+/*
 .footer-icon {
   font-size: 20px;
 }
@@ -108,7 +108,7 @@ footer li {
 
 .icon-location {
   margin-right: 4px;
-}
+}*/
 
 
 

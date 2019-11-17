@@ -12,6 +12,35 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 */
 
 /************************************************************/
+/*Footer*/
+/************************************************************/
+
+.phone {
+	letter-spacing: 2px;
+}
+
+.phone span[class*='icon-'], .phone + div span[class*='icon-'] {
+	position: absolute;
+	left:0;
+	font-size: 25px;
+}
+.icon-phone {
+	top: 5px;
+}
+.icon-location {
+	top: -5px;
+}
+footer a[class*='icon-']:hover {
+	color: #212529
+}
+
+footer .nav-link {
+	padding-top: .05rem;
+	width: max-content;
+	padding-left: 0;
+}
+
+/************************************************************/
 /*Logo*/
 /************************************************************/
 
@@ -186,6 +215,8 @@ input[type="checkbox"]:checked + label:before {
 
 footer {
 	background-color: #F6F6F6;
+	padding-top: 2.5rem;
+	padding-bottom: 0.25rem;
 }
 
 
@@ -245,6 +276,9 @@ body.postid-72 h4.attention {
 }
 .fs-18 {
 	font-size: 18px !important;
+}
+.fs-25 {
+	font-size: 25px !important;
 }
 h2, h4 {
 	font-style: normal;
@@ -306,13 +340,18 @@ p, .content {
 	position: absolute;
 	top: 0;
 }
-.gold-line-top-left::before {
+.gold-line-top-left::before, .gold-line-top-right::before {
 	content: '';
 	border-top: 1px solid #F4CE77;
 	width: 60px;
 	position: absolute;
 	top: 0;
 	left: 15px;
+}
+.gold-line-top-right::before {
+	left: inherit;
+	right: 0 !important;
+	width: 120px;
 }
 footer .gold-line-top::before {
 	width: 140px;
@@ -382,21 +421,6 @@ footer .gold-line-top-left::before {
 #news h5 {
 	/*height: 66px;*/
 }
-.size0_9
-{
-	font-size: 12px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-}
-.size25
-{
-	font-size: 26px;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 300;
-	letter-spacing: 2px;
-}
 /*span.size25
 {
 	font-size: 20px;
@@ -416,10 +440,6 @@ footer .gold-line-top-left::before {
 	position: absolute;
 	left: 0;
 }*/
-.copyright {
-	font-size: 12px;
-	text-align: center;
-}
 
 
 
