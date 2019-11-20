@@ -4,6 +4,46 @@
 
 */
 
+/* эта ширина экономит код и препятствует ломанию вёрстки на lg и md 
+ - т.к шрифты в контактах на lg выходили за рамки и прыгали столбики в UL
+*/
+footer ul.columns,
+footer .m-width {
+  min-width: 285px;
+  /*временно для наглядности*/
+  outline: 2px dashed gold;
+}
+
+/*убираю дерганья при hover*/
+footer li {
+  border: 1px solid transparent;
+}
+
+.columns {
+  column-count: 3;
+  display: block;
+}
+
+/*выравнивает column-count элементы в опр.случаях*/
+footer li {
+  page-break-inside: avoid;
+}
+
+/*пишу тут - т.к это требует в 2 раза меньше кода, чем в html
+  потому что там ещё и row и items по два раза прийдется переопределять
+  А здесь элегантно в две строчки умещается всё мобильное перестроение
+*/
+@media (max-width: 991px) {
+  .f-column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
 /*Новые стили для этой страницы отдели в отдельный блок сюда, чтобы я пока не мешал тебе, когда буду переносить и править предыдущие*/
 
 /*========================================================*/
@@ -61,81 +101,18 @@ header nav .line-menu {
 
 @media (max-width: 767px) {
   /*не знаю как прописать ширину 100 на md экране. не получается*/
-  .nav-item {
+  header .nav-item {
     width: max-content;
     text-align: center;
     margin-top: 0.5rem !important;
   }
-  .nav-link {
+  header .nav-link {
     padding-top: 0;
   }
-  .active {
+  header .active {
     font-weight: 500;
   }
 }
-
-
-
-/*========================================================*/
-/*=================== footer =============================*/
-
-.columns {
-  column-count: 3;
-  display: block;
-}
-
-footer li {
-  page-break-inside: avoid;
-}
-
-
-/*Я, по-моему, уже не раз говорил, что ненужно плодить стили, которые уже есть. Смотрим style.css*/
-/*
-.size15 {
-  font-size: 15px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-}*/
-/*
-.footer-icon {
-  font-size: 20px;
-}
-
-.icon-phone {
-  margin-right: 20px;
-}
-
-.icon-location {
-  margin-right: 4px;
-}*/
-
-
-
-
-@media (max-width: 991px) {
-  .columns {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 767px) {
-  .columns {
-    column-count: 3;
-  }
-}
-
-@media (max-width: 575px) {
-  footer .gold-line-top::before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0!important;
-    right: 0;
-    margin: auto;    
-  }
-}
-
 
 
 
@@ -151,10 +128,7 @@ footer li {
 .f-red {
   color: #CA030F;
 }
-/*
-.help-text-margin {
-  margin-left: 30px;
-}*/
+
 
 @media (max-width: 991px) {
   /*cтраница help-necessary*/
