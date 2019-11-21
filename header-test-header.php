@@ -36,7 +36,7 @@
             <li class="nav-item"><a href="#" class="nav-link link-gray">О фонде</a></li>
             <li class="nav-item active"><a href="http://fondsiluana.localhost/help-necessary/" class="nav-link link-gray">Нужна помощь</a></li>
             <li class="nav-item"><a href="#" class="nav-link link-gray">Помогли</a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-gray">Друзья</a></li>
+            <li class="nav-item"><a href="/friends" class="nav-link link-gray">Друзья</a></li>
             <!-- Пока скрываем после согласования с заказчиком -->
             <!-- <li class="nav-item">
               <a href="#" class="nav-link link-gray">

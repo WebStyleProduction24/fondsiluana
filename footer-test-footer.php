@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link link-gray">
+          <a href="/friends" class="nav-link link-gray">
             Друзья
           </a>
         </li>
