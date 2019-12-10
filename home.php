@@ -106,7 +106,7 @@ wp_reset_query();
 
 						</div>
 					</div>
-					<div class="col-md-3">
+<!-- 					<div class="col-md-3">
 						<h3>Им помогли</h3>
 						<a href="/pervyj-sbor-sredstv/" title="София и Меркурий"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/sofiya-merkuriy.jpg" alt="Софья и Меркурий"></a>
 						<h4 class="gold-line-top">София и Меркурий</h4>
@@ -117,7 +117,8 @@ wp_reset_query();
 							<p class="mb-1 money">окончен</p>
 						</div>
 					</div>
-				</div>
+ -->			
+ 	</div>
 	</section>
 
 
@@ -155,7 +156,7 @@ wp_reset_query();
 			<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
 				<div class="row news__title-block">
 					<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
-						<h5 class="gold-line-bottom">Милостью Божьей мы помогли Софии</h5>
+						<h5 class="gold-line-bottom">Милостью Божьей София идёт на поправку</h5>
 					</div>
 					<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
 						<span>22</span>

@@ -32,13 +32,13 @@ Template Name: Шаблон страницы "Контакты"
           <div class="position-relative">
             <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
           </div>
-          <p><a class="link-gray fs-18" href="tel:+7(650)1065731">+7 960 106 5731</a></p>
+          <p><a class="link-gray fs-18" href="tel:+7(960)1065731">+7 960 106 5731</a></p>
         </div>
         <div class="col-md-4">
           <div class="position-relative">
             <p class="fs-12 pb-2 mb-2 gold-line-bottom">e-mail</p>
           </div>
-          <p><a class="link-gray fs-18" href="mailto:76501065731@yandex.ru">79601065731@yandex.ru</a></p>
+          <p><a class="link-gray fs-18" href="mailto:79601065731@yandex.ru">79601065731@yandex.ru</a></p>
         </div>
       </div>
 
@@ -50,13 +50,13 @@ Template Name: Шаблон страницы "Контакты"
             <div class="position-relative">
               <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
             </div>
-            <p><a class="link-gray fs-18" href="tel:+7(650)1065731">+7 650 106 57 31</a></p>
+            <p><a class="link-gray fs-18" href="tel:+7(960)1065731">+7 960 106 57 31</a></p>
           </div>
           <div class="mb-5">
             <div class="position-relative gold-line-bottom">
               <p class="fs-12 pb-2 mb-2">e-mail</p>
             </div>
-            <p><a class="link-gray fs-18" href="mailto:76501065731@yandex.ru">76501065731@yandex.ru</a></p>
+            <p><a class="link-gray fs-18" href="mailto:79601065731@yandex.ru">79601065731@yandex.ru</a></p>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ Template Name: Шаблон страницы "Контакты"
             <textarea class="form-control border-textarea" id="textarea" rows="3" placeholder="Вашe сообщение" required></textarea>
             <div class="mb-3 mt-5 pt-2 gold-line-top position-relative">
               <input id="inp4" class="form-check-input"  type="checkbox" checked>
-              <label class="form-check-label" for="inp4"><a href="#">Согласие на обработку персональных данных</a></label>
+              <label class="form-check-label" for="inp4"><a href="#">Согласие</a> на обработку персональных данных</label>
             </div>
             <div class="col-12 position-relative">
               <a href="#" class="w-100 text-white hrt-btn fs-10 btn" tabindex="-1" role="button" aria-disabled="true">Стать волонтёром</a>
