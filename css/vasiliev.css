@@ -1,0 +1,61 @@
+﻿/*
+
+Стили, прописанные Васильевым Сергеем
+
+*/
+
+
+/* Блок */
+.c-block {
+	max-width: 560px !important;
+}
+
+/* Карточки */
+.crd {
+	cursor: pointer;
+	border: 1px solid #979797;
+	border-radius: 2px; 
+}
+
+.crd:hover {
+	border: 1px solid #E20613;	
+}
+
+.img-card-t {
+	width: 70px;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #979797;
+}
+.crd:hover .img-card-t {
+	border-bottom: 1px solid #E20613;
+}
+
+/* чекбоксы */
+
+.form-check-label {
+	font-size: 10px;
+	line-height: 20px;
+	color: #4C4C4C;
+}
+
+.form-check-label a {
+	text-decoration: underline;
+	color: #4C4C4C;
+}
+
+label:before {
+	content: "";
+	border-radius: 2px;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]:checked + label:before {
+	font-size: 32px;
+	line-height: 10px;
+	text-shadow: -1px -1px 0px rgba(255,255,255,1), 1px 1px 0px rgba(255,255,255,1);
+}
+
