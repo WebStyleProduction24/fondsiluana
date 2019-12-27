@@ -28,7 +28,7 @@
 
 
 	<div class="row">
-		<div class="col-md-9">
+		<div class="col-md-12"> <!-- Временно ставим на всю ширину, после того, как появится блок "им помогли" необходимо вернуть на col-md-9 -->
 			<h3>Им нужна помощь</h3>
 			<div class="row">
 
@@ -68,9 +68,14 @@
 					<?php global $post; ?>
 					<div class="col-md-4">
 						<h4 class="gold-line-top" style="line-height: 35px;"><?php the_title(); ?></h4>
+						
+						<a href="<?php the_permalink(); ?>" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
+							Помочь
+						</a>
 
 						<?php the_excerpt(); ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
+
 
 					</div>
 				<?php } /* конец while */ ?>
