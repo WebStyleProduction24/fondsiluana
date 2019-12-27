@@ -1,0 +1,348 @@
+/*
+
+Стили, прописанные Александром Вестеровским
+
+*/
+
+/* эта ширина экономит код и препятствует ломанию вёрстки на lg и md 
+ - т.к шрифты в контактах на lg выходили за рамки и прыгали столбики в UL
+*/
+footer ul.columns,
+footer .m-width {
+  min-width: 285px;
+  /*временно для наглядности*/
+  outline: 2px dashed gold;
+}
+
+/*убираю дерганья при hover*/
+footer li {
+  border: 1px solid transparent;
+}
+
+.columns {
+  column-count: 3;
+  display: block;
+}
+
+/*выравнивает column-count элементы в опр.случаях*/
+footer li {
+  page-break-inside: avoid;
+}
+
+/*пишу тут - т.к это требует в 2 раза меньше кода, чем в html
+  потому что там ещё и row и items по два раза прийдется переопределять
+  А здесь элегантно в две строчки умещается всё мобильное перестроение
+*/
+@media (max-width: 991px) {
+  .f-column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+/*Новые стили для этой страницы отдели в отдельный блок сюда, чтобы я пока не мешал тебе, когда буду переносить и править предыдущие*/
+
+/*========================================================*/
+/*=================== header =============================*/
+
+
+
+/*---open menu---*/
+
+/*Туда же по поводу не плодить стили! Есть в badikov.css Используй Ctrl+Shift+F для поиска по всему проекту в Sublime, если не уверен*/
+
+/*.wrapper-menu {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);  
+}
+
+header nav .line-menu {
+  background-color: #4C4C4C;
+  border-radius: 5px;
+  width: 100%;
+  height: 3px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+} */
+
+@media (max-width: 767px) {
+  /*не знаю как прописать ширину 100 на md экране. не получается*/
+  header .nav-item {
+    width: max-content;
+    text-align: center;
+    margin-top: 0.5rem !important;
+  }
+  header .nav-link {
+    padding-top: 0;
+  }
+  header .active {
+    font-weight: 500;
+  }
+}
+
+
+
+
+/*========================================================*/
+/*=================== help-necessary =====================*/
+
+
+
+
+
+/*f-red предлагаю внести в общие стили*/
+.f-red {
+  color: #CA030F;
+}
+
+
+@media (max-width: 991px) {
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 35px;
+  }
+}
+
+
+
+
+
+/*========================================================*/
+/*========================================================*/
+
+
+/*типографика для страницы контакты*/
+
+.contacts-wrapper {
+  line-height: 26px !important;
+  color: #4C4C4C;
+}
+
+.contacts-h2 {
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: left;
+  color: 
+}
+
+.contacts-h3 {
+  padding: 0 15px;
+  text-align: left;
+  color: #000;
+}
+
+.contacts-h4 {
+  text-align: left;
+}
+
+.size20 {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.contacts-link {
+  font-size: 18px;
+/*  font-family: 'Cormorant Garamond', serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: red;
+  word-break: break-all;
+}
+
+
+
+
+
+/***** Контакты *****/
+.contacts-block-top {
+  position: relative;
+}
+
+.list-group {
+  flex-direction: row;
+}
+
+.list-group,
+.list-group-item {
+  flex-grow: 1;
+  border: none;
+}
+
+
+
+
+
+
+/***** Блок реквизиты *****/
+.requisites {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border: 1px solid #979797;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+
+.requisites .gold-line-top::after{
+  top: 30px;
+  left: 15px;
+}
+
+.requisites-text {
+  font-size: 16px;
+  white-space: normal;
+}
+
+.requisites-text-header {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: normal;
+}
+
+/*кнопка скачать реквизиты*/
+.white-beneficence {
+  width: 220px;
+  border: 1px solid #FF010B;
+  color: #FF010B;
+  background-image: url(img/heart-btn.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+
+/*Карта*/
+.map-vertical {
+  height: 100%;
+  background-color: #F4EEE1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bottom-map {
+  max-height: 300px;
+  background-color: #F4EEE1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .contacts-h2 {
+    text-align: center;
+  }
+
+  .bottom-map {
+    display: none;
+  }
+
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 15px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  .contacts-h3 {
+    text-align: center;
+  }
+
+  .map-vertical {
+    display: none;
+  }
+
+  .bottom-map {
+    display: block;
+  }
+
+  .requisites {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /*cтраница help-necessary*/
+  .help-description.gold-line-top::after {
+    top: 35px;
+  }
+}
+
+
+
+
+
+
+

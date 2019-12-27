@@ -11,7 +11,6 @@ Template Name: Шаблон страницы Им помогли
 <?php get_header(); ?>
 
 
-
 		<div class="container">
 			<div class="row">
 				<div class="helped col-9">
@@ -126,6 +125,7 @@ Template Name: Шаблон страницы Им помогли
 				</div>
 			</div>
 		</div>
+
 
 
 <?php get_footer(); ?>
