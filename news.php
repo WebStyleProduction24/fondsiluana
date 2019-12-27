@@ -23,7 +23,7 @@ Template Name: Шаблон страницы "Новости"
       <!-- Основной блок -->
       <div class="col-lg-8 col-md-12">
         <h2 class="mb-3 mb-sm-5">Объявлен сбор средств на покупку неонатальных термокроваток</h2>
-        <div class="content text-right gold-line-top position-relative py-2 pb-4 a">27 Июля 2019</div>
+        <div class="content text-right gold-line-top position-relative py-2 pb-4 a">19 Ноября 2019</div>
         <img src="/wp-content/uploads/2019/07/krovatka.png" alt="Неонатальные термокроватки" class="w-100">
         <div class="content fs-14 py-4">
           <p>
@@ -42,6 +42,27 @@ Template Name: Шаблон страницы "Новости"
         <div class="col-lg-4 col-md-12 news-sidebar">
           <h3 class="mb-3">Новости Фонда</h3>
           <div class="row">
+
+            <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+              <div class="row news__title-block">
+                <div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+                  <h5 class="gold-line-bottom">Сбор средств Мелании Монастырской</h5>
+                </div>
+                <div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+                  <span>23</span>
+                  <br>декабря 
+                </div>
+              </div>
+              <p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+                К нам обратились с просьбой о помощи в сборе средств для замечательной девочки - Мелании Монастырской.
+              </p>
+              <p class="text-right w-100 news__button">
+                <a href="/campaign/sbor-sredstv-dlya-melanii-monastyrskoj/" class="button border-bottom gold-border pb-1 link-gray">
+                  Подробнее
+                </a>
+              </p>
+            </div>
+
 
             <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
               <div class="row news__title-block">

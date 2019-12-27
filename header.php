@@ -43,7 +43,7 @@
 				<div class="col-lg-5 pb-3"><a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-main.png" alt="" type="image/png"></a></div>
 				<div class="col-6 col-lg-2 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Нужна помощь</a></div>
 				<div class="col-6 col-lg-2 text-center m-auto"><a href="#" class="button border-top gold-border pt-1 link-gray button-menu">Стать волонтером</a></div>
-				<div class="col-lg-3 text-center m-auto"><a href="/campaign/cbor-sredstv-na-pokupku-neonatalnyh-termokrovatok/" class="w-100 text-white roboto btn fs-10 hrt-btn" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
+				<div class="col-lg-3 text-center m-auto"><a href="/campaign/fond-siluana-afonskogo/" class="w-100 text-white roboto btn fs-10 hrt-btn" tabindex="-1" role="button" aria-disabled="true">Сделать доброе дело</a></div>
 			</div>
 		</div>
 	</header>

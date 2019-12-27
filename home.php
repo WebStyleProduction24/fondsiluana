@@ -70,7 +70,7 @@
 						<h4 class="gold-line-top" style="line-height: 35px;"><?php the_title(); ?></h4>
 
 						<?php the_excerpt(); ?>
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="Неонатальные термокроватки"></a>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
 
 					</div>
 				<?php } /* конец while */ ?>
@@ -139,8 +139,8 @@ wp_reset_query();
 							<h5 class="gold-line-bottom">Сбор средств Мелании Монастырской</h5>
 						</div>
 						<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
-							<span>19</span>
-							<br>ноября 
+							<span>23</span>
+							<br>декабря 
 						</div>
 					</div>
 					<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
