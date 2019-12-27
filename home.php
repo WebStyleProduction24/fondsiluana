@@ -67,12 +67,12 @@
 				if( have_posts() ){ while( have_posts() ){ the_post(); ?>
 					<?php global $post; ?>
 					<div class="col-md-4">
-						<h4 class="gold-line-top" style="line-height: 35px;"><?php the_title(); ?></h4>
-						
+						<h4 class="gold-line-top" style="line-height: 35px; min-height: 70px;"><?php the_title(); ?></h4>
+
 						<a href="<?php the_permalink(); ?>" class="btn position-relative wht-hrt-btn fs-12" role="button" aria-disabled="true">
 							Помочь
 						</a>
-
+						<div style="height: 10px">&nbsp</div> <!-- Временная пустая строка для добавления разрыва -->
 						<?php the_excerpt(); ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
 
