@@ -14,7 +14,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<?php
-	if( is_home() || is_page(72) ){}
+	if( is_home() || is_page(72) || is_page(295) ){}
 		else { ?>
 			<div class="container">
 
