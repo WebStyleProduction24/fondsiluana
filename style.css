@@ -14,6 +14,9 @@ GitHub Theme URI: https://github.com/WebStyleProduction24/fondsiluana
 /************************************************************/
 /*Forms*/
 /************************************************************/
+main {
+	min-height: 50vh;
+}
 .form-control {
 	padding-left: 0;
 }
@@ -97,7 +100,7 @@ input[type="checkbox"]:focus + label:before {
 /************************************************************/
 
 #map {
-	min-height: 300px;
+	min-height: 500px;
 }
 /************************************************************/
 /*Блок новостей test*/

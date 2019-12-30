@@ -17,35 +17,21 @@ Template Name: Шаблон страницы "Контакты"
 
     <!-- Главная колонка -->
     <div class="col-lg-9 col-md-12">
-      <h3 class="mb-4">Наши Контакты</h3>
-      <div class="row pb-5">
-        <div class="col-md-4">
-          <div class="position-relative">
-            <p class="fs-12 pb-2 mb-2 gold-line-bottom">адрес</p>
-          </div>
-          <div class="fs-18">
-            г. Воронеж
-            <p class="fs-12"><a href="https://yandex.ru/maps/-/CGTNQZiv" class="link-gray" target="blank">ул. Комиссаржевской, д. 10, оф. 910</a></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="position-relative">
-            <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
-          </div>
-          <p><a class="link-gray fs-18" href="tel:+7(960)1065731">+7 960 106 5731</a></p>
-        </div>
-        <div class="col-md-4">
-          <div class="position-relative">
-            <p class="fs-12 pb-2 mb-2 gold-line-bottom">e-mail</p>
-          </div>
-          <p><a class="link-gray fs-18" href="mailto:79601065731@yandex.ru">79601065731@yandex.ru</a></p>
-        </div>
-      </div>
 
       <div class="row">
         <!-- для партнёров -->
+        <!-- для партнёров -->
         <div class="col-md-5">
-          <h3 class="mb-4">Для партнёров</h3>
+          <h3 class="mb-4">Наши Контакты</h3>
+          <div class="mb-1 mb-sm-5">
+            <div class="position-relative">
+              <p class="fs-12 pb-2 mb-2 gold-line-bottom">адрес</p>
+            </div>
+            <div class="fs-18">
+              г. Воронеж
+              <p class="fs-12"><a href="https://yandex.ru/maps/-/CGTNQZiv" class="link-gray" target="blank">ул. Комиссаржевской, д. 10, оф. 910</a></p>
+            </div>
+          </div>
           <div class="mb-1 mb-sm-5">
             <div class="position-relative">
               <p class="fs-12 pb-2 mb-2 gold-line-bottom">телефон</p>
@@ -62,9 +48,8 @@ Template Name: Шаблон страницы "Контакты"
 
         <!-- для волонтёров -->
         <div class="col-md-5">
-          <h3 class="mb-4">Для волонтёров</h3>
+          <h3 class="mb-4">Обратная связь</h3>
           <p class="position-relative fs-12 pb-2 mb-2 gold-line-bottom">напишите нам</p>
-          <p class="mt-4">Мы всегда рады новым помощникам! Напишите нам и с вами свяжется наш координатор волонтеров.</p>
           <form action="">
             <input id="inp1" class="form-control brd-inp"  type="text" placeholder="Ваше имя" required>
             <label for="inp1"></label>
@@ -126,13 +111,13 @@ Template Name: Шаблон страницы "Контакты"
       </a>
     </div>
 
-    <div class="col-12 col-sm-7 col-lg-12 mt-5" id="map"></div>
+    
   </div>
 </div>
 
 
 
-
+<div class="mt-5 mt-4" id="map"></div>
 
 
 

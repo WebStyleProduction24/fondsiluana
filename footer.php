@@ -1,5 +1,5 @@
 </main>
-		<footer class="mt-5 pt-4">
+		<footer class="pt-4">
 
 
 			<div class="container">
