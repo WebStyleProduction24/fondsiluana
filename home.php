@@ -141,6 +141,26 @@ wp_reset_query();
 				<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
 					<div class="row news__title-block">
 						<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+							<h5 class="gold-line-bottom">C наступающим Новым Годом!</h5>
+						</div>
+						<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+							<span>31</span>
+							<br>декабря 
+						</div>
+					</div>
+					<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+						Наш фонд существует не так давно, но мы надеемся, что за это время мы вместе с вами успели принести в этот мир чуточку добра и тепла, надеемся, что сделали его чуть лучше.
+					</p>
+					<p class="text-right w-100">
+						<a href="/news" class="button border-bottom gold-border pb-1 link-gray">
+							Подробнее
+						</a>
+					</p>
+				</div>
+
+				<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+					<div class="row news__title-block">
+						<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
 							<h5 class="gold-line-bottom">Сбор средств Мелании Монастырской</h5>
 						</div>
 						<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
