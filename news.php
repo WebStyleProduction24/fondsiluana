@@ -41,16 +41,6 @@ Template Name: Шаблон страницы "Новости"
 
         </div>
 
-
-
-        <h2 class="mb-3 mb-sm-5">C наступающим Новым Годом!</h2>
-        <div class="content text-right gold-line-top position-relative py-2 pb-4 a">31 Декабря 2019</div>
-        <div class="content fs-14 py-4 mb-5">
-
-          <p>Наш фонд существует не так давно, но мы надеемся, что за это время мы вместе с вами успели принести в этот мир чуточку добра и тепла, надеемся, что сделали его чуть лучше. В преддверии Нового года, хочется всем пожелать, чтобы в Вашей жизни было тепло улыбок близких людей и друзей. Пусть в новом году в Вашей жизни будет меньше равнодушия, пусть Вас согревает тепло сердец тех, кто рядом. Удачи, счастья, радости, светлых замечательных дней.</p>
-        </div>
-
-
         <h2 class="mb-3 mb-sm-5">Сбор средств Мелании Монастырской</h2>
         <div class="content text-right gold-line-top position-relative py-2 pb-4 a">23 Декабря 2019</div>
         <div class="content fs-14 py-4 mb-5">
@@ -77,6 +67,46 @@ Template Name: Шаблон страницы "Новости"
       <div class="col-lg-4 col-md-12 news-sidebar">
         <h3 class="mb-3">Новости Фонда</h3>
         <div class="row">
+
+          <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+            <div class="row news__title-block">
+              <div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+                <h5 class="gold-line-bottom">Спасибо Вам за кроватки!</h5>
+              </div>
+              <div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+                <span>16</span>
+                <br>января 
+              </div>
+            </div>
+            <p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+              Друзья, две неонатальные термокроватки из пяти запланированных, с вашей помощью, уже приобретены и отправлены в Воронежскую областную детскую клиническую больницу № 1 (БУЗ ВО «ВОДКБ № 1»).
+            </p>
+            <p class="text-right w-100 news__button">
+              <a href="https://fondsiluana.ru/spasibo-vam-za-krovatki/" class="button border-bottom gold-border pb-1 link-gray">
+                Подробнее
+              </a>
+            </p>
+          </div>
+
+          <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+            <div class="row news__title-block">
+              <div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+                <h5 class="gold-line-bottom">C наступающим Новым Годом!</h5>
+              </div>
+              <div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+                <span>31</span>
+                <br>декабря 
+              </div>
+            </div>
+            <p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+              Наш фонд существует не так давно, но мы надеемся, что за это время мы вместе с вами успели принести в этот мир чуточку добра и тепла, надеемся, что сделали его чуть лучше.
+            </p>
+            <p class="text-right w-100 news__button">
+              <a href="https://fondsiluana.ru/c-nastupayushhim-novym-godom/" class="button border-bottom gold-border pb-1 link-gray">
+                Подробнее
+              </a>
+            </p>
+          </div>
 
           <div class="col-lg-12 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
             <div class="row news__title-block">
