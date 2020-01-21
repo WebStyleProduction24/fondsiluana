@@ -141,6 +141,27 @@ wp_reset_query();
 				<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
 					<div class="row news__title-block">
 						<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
+							<h5 class="gold-line-bottom">Спасибо Вам за кроватки!</h5>
+						</div>
+						<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
+							<span>16</span>
+							<br>января 
+						</div>
+					</div>
+					<p class="pb-lg-4 mt-3 mb-md-0 mb-2 news__content">
+						Друзья, две неонатальные термокроватки из пяти запланированных, с вашей помощью, уже приобретены и отправлены в Воронежскую областную детскую клиническую больницу № 1 (БУЗ ВО «ВОДКБ № 1»).
+					</p>
+					<p class="text-right w-100">
+						<a href="/news" class="button border-bottom gold-border pb-1 link-gray">
+							Подробнее
+						</a>
+					</p>
+				</div>
+
+
+				<div class="col-lg-3 col-md-4 position-relative mb-lg-4 mb-4 mb-sm-2">
+					<div class="row news__title-block">
+						<div class="col-8 col-lg-9 d-table-cell align-middle pl-0">
 							<h5 class="gold-line-bottom">C наступающим Новым Годом!</h5>
 						</div>
 						<div class="col-4 col-lg-3 d-table-cell align-middle new-date">
